@@ -1,0 +1,82 @@
+[
+  {
+    "listing": "/Learn/Guides/index.html",
+    "items": [
+      "/Learn/Guides/How-to-contribute.html",
+      "/Learn/Guides/Github-desktop.html"
+    ]
+  },
+  {
+    "listing": "/Learn/index.html",
+    "items": [
+      "/Learn/Guides/How-to-contribute.html",
+      "/Learn/Guides/Github-desktop.html",
+      "/Learn/Videos/Intro-git-github.html"
+    ]
+  },
+  {
+    "listing": "/Learn/Blogs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/Learn/Guides/How-to-contribute.html",
+      "/Learn/Guides/Github-desktop.html",
+      "/Learn/Videos/Intro-git-github.html",
+      "/Toolbox/Compute/CHTC.html"
+    ]
+  },
+  {
+    "listing": "/Toolbox/GenAI/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Toolbox/MLOps/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Toolbox/Models/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Toolbox/Libraries/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Toolbox/Data/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Toolbox/Compute/index.html",
+    "items": [
+      "/Toolbox/Compute/CHTC.html"
+    ]
+  },
+  {
+    "listing": "/Toolbox/index.html",
+    "items": [
+      "/Toolbox/Compute/CHTC.html"
+    ]
+  },
+  {
+    "listing": "/Learn/Books/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Learn/Notebooks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/Learn/Videos/index.html",
+    "items": [
+      "/Learn/Videos/Intro-git-github.html"
+    ]
+  },
+  {
+    "listing": "/Learn/Workshops/index.html",
+    "items": [
+      "/Learn/Videos/Intro-git-github.html"
+    ]
+  }
+]

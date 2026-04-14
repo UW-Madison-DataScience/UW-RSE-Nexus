@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="UW RSE">
+<meta name="dcterms.date" content="2026-04-10">
+
+<title>How to Contribute? – Nexus: Crowdsourced ML Resources</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../Learn/index.html" rel="next">
+<link href="../../index.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4119bc1000562f52233342b96d01d22c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../Learn/Guides/How-to-contribute.html">How to contribute?</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/UW-RSE_Logo_Secondary_Transparent.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Learn/Guides/How-to-contribute.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">How to contribute?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Learn/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Learn</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Learn/Blogs/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blogs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Learn/Books/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Books</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Learn/Guides/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Guides</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Learn/Workshops/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshops</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Category glossary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-kinds-of-resources-are-hosted-on-nexus" id="toc-what-kinds-of-resources-are-hosted-on-nexus" class="nav-link active" data-scroll-target="#what-kinds-of-resources-are-hosted-on-nexus">What kinds of resources are hosted on Nexus?</a></li>
+  <li><a href="#need-inspiration-for-a-good-topic-to-post-about" id="toc-need-inspiration-for-a-good-topic-to-post-about" class="nav-link" data-scroll-target="#need-inspiration-for-a-good-topic-to-post-about">Need inspiration for a good topic to post about?</a></li>
+  <li><a href="#what-makes-a-good-post" id="toc-what-makes-a-good-post" class="nav-link" data-scroll-target="#what-makes-a-good-post">What makes a good post?</a>
+  <ul class="collapse">
+  <li><a href="#clear-and-concise-title" id="toc-clear-and-concise-title" class="nav-link" data-scroll-target="#clear-and-concise-title">Clear and concise title</a></li>
+  <li><a href="#detailed-description" id="toc-detailed-description" class="nav-link" data-scroll-target="#detailed-description">Detailed description</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#estimated-time-to-complete" id="toc-estimated-time-to-complete" class="nav-link" data-scroll-target="#estimated-time-to-complete">Estimated time to complete</a></li>
+  <li><a href="#accessibility-and-usability" id="toc-accessibility-and-usability" class="nav-link" data-scroll-target="#accessibility-and-usability">Accessibility and usability</a></li>
+  <li><a href="#additional-related-resources" id="toc-additional-related-resources" class="nav-link" data-scroll-target="#additional-related-resources">Additional related resources</a></li>
+  <li><a href="#examples-of-good-posts" id="toc-examples-of-good-posts" class="nav-link" data-scroll-target="#examples-of-good-posts">Examples of good posts</a></li>
+  </ul></li>
+  <li><a href="#how-to-make-a-new-post-with-github" id="toc-how-to-make-a-new-post-with-github" class="nav-link" data-scroll-target="#how-to-make-a-new-post-with-github">How to make a new post with GitHub?</a>
+  <ul class="collapse">
+  <li><a href="#prerequisites-1" id="toc-prerequisites-1" class="nav-link" data-scroll-target="#prerequisites-1">Prerequisites</a></li>
+  <li><a href="#github-collaboration-model" id="toc-github-collaboration-model" class="nav-link" data-scroll-target="#github-collaboration-model">GitHub collaboration model</a></li>
+  </ul></li>
+  <li><a href="#how-to-improve-an-existing-post" id="toc-how-to-improve-an-existing-post" class="nav-link" data-scroll-target="#how-to-improve-an-existing-post">How to improve an existing post?</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/Learn/Guides/How-to-contribute.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">How to Contribute?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Guides</div>
+    <div class="quarto-category">Contribute</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>UW RSE </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 10, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>We want Nexus to serve also as a place where members of the community can share their knowledge. This guide answers the question, how to contribute to Nexus?</p>
+<section id="what-kinds-of-resources-are-hosted-on-nexus" class="level2">
+<h2 class="anchored" data-anchor-id="what-kinds-of-resources-are-hosted-on-nexus">What kinds of resources are hosted on Nexus?</h2>
+<p>Any content (original or external) that can help improve research through Research Software Engineering practices.</p>
+<ul>
+<li><p>🧠 <a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/"><strong>Educational materials</strong></a>: Explore a library of educational materials (workshops, books, videos, etc.) covering a wide range of ML-related topics, tools, and workflows, from foundational concepts to advanced techniques.</p></li>
+<li><p>🛠 <a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Toolbox/"><strong>Models, code, and more</strong></a>: Learn about popular models, tools, and datasets that you can leverage for your next ML project.</p></li>
+<li><p>🧬 <a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/"><strong>Applications &amp; stories</strong></a>: Discover a curated collection of blogs, papers, and talks which dive into real-world ML applications and lessons learned by practitioners.</p></li>
+</ul>
+<p><strong>Disclaimer</strong>: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.</p>
+</section>
+<section id="need-inspiration-for-a-good-topic-to-post-about" class="level2">
+<h2 class="anchored" data-anchor-id="need-inspiration-for-a-good-topic-to-post-about">Need inspiration for a good topic to post about?</h2>
+<p>An ever-expanding list of requested resources can be found on the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/labels/resource">Issues page (on GitHub)</a>. Search for open issues that have the “Resource” label to check out some of our top priorities. If you’d like to tackle a given issue, please comment on the issue to let others know.</p>
+</section>
+<section id="what-makes-a-good-post" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-a-good-post">What makes a good post?</h2>
+<p>Creating a useful and engaging post for the UW RSE Nexus involves a few key elements to ensure it is beneficial for the community. Here are some general guidelines to follow:</p>
+<section id="clear-and-concise-title" class="level3">
+<h3 class="anchored" data-anchor-id="clear-and-concise-title">Clear and concise title</h3>
+<p>The title should accurately reflect the content and main focus of the post. It should be engaging and specific, allowing readers to quickly understand what they can expect.</p>
+</section>
+<section id="detailed-description" class="level3">
+<h3 class="anchored" data-anchor-id="detailed-description">Detailed description</h3>
+<p>Provide a comprehensive overview of the resource or topic. This should include:</p>
+<ul>
+<li><p><strong>Purpose and scope</strong>: Clearly state what the resource covers and its main objectives. Explain why the content is valuable and how it can help practitioners.</p></li>
+<li><p><strong>Key features</strong>: Highlight the unique aspects or strengths of the resource. This could include practical examples, interactive elements, or real-world applications.</p></li>
+<li><p><strong>Strengths and weaknesses</strong>: Provide a balanced view by discussing both the strengths and any potential limitations of the resource. This helps users make informed decisions about whether the resource is right for them.</p></li>
+</ul>
+</section>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
+<p>List any necessary background knowledge or skills required to fully benefit from the resource. This helps set expectations and ensures that users are adequately prepared. Include links to additional resources or tutorials that can help users gain the required knowledge.</p>
+</section>
+<section id="estimated-time-to-complete" class="level3">
+<h3 class="anchored" data-anchor-id="estimated-time-to-complete">Estimated time to complete</h3>
+<p>Offer an estimate of the time commitment needed to complete the resource. This helps users plan their learning activities and manage their time effectively.</p>
+</section>
+<section id="accessibility-and-usability" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility-and-usability">Accessibility and usability</h3>
+<p>Ensure the resource is easy to access and use. We want the majority of resources on Nexus to be free and open source (with possibly a few rare exceptions for tools/resources in high-demand). Provide clear instructions on how to navigate and utilize the content. If the resource is hosted externally, include a direct link and any necessary login or access information.</p>
+</section>
+<section id="additional-related-resources" class="level3">
+<h3 class="anchored" data-anchor-id="additional-related-resources">Additional related resources</h3>
+<p>Include links to related materials or further readings that can enhance the user’s understanding and provide more in-depth knowledge on the topic. This can include books, articles, other workshops, or case studies. When possible, link to any relevant materials which are already hosted on the Nexus platform.</p>
+</section>
+<section id="examples-of-good-posts" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-good-posts">Examples of good posts</h3>
+<p>Please see below for a list of resources that meet our platform’s standards. You can use these examples in conjunction with the template files provided in the next section to create your post. You can click “Improve this page” near the top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus">GitHub repo</a>.</p>
+<section id="external-content" class="level4">
+<h4 class="anchored" data-anchor-id="external-content">External content</h4>
+<ul>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Workshops/Intro-Deeplearning_Keras.html">Learn: Workshop</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Books/Intro-Deeplearning_SimonJDPrince.html">Learn: Book</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Videos/Grokking.html">Learn: Video</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/Videos/Other/CrossLabsAI-CrossRoads45-METL-Biophysics-based-Protein-Language-Model.html">Application: Video</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Toolbox/Data/Gutenberg.html">Toolbox: Data</a></li>
+</ul>
+</section>
+<section id="original-content" class="level4">
+<h4 class="anchored" data-anchor-id="original-content">Original content</h4>
+<ul>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html">Learn: Guide</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Notebooks/2025-05-07_RAG-Romeo-Juliet.html">Learn: Notebook</a></li>
+<li><a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/Blogs/blog-music-identification.html">Application: Blog</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="how-to-make-a-new-post-with-github" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-make-a-new-post-with-github">How to make a new post with GitHub?</h2>
+<section id="prerequisites-1" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites-1">Prerequisites</h3>
+<p>You do not necessarily need specific training in anything, but you will need to use git and GitHub:</p>
+<ul>
+<li>Some familiarity with git or GitHub Desktop (<code>clone</code>, <code>pull</code>, <code>commit</code>, <code>push</code>)</li>
+<li>A GitHub account and some familiarity with GitHub (Fork, Issues, Pull Request)</li>
+</ul>
+</section>
+<section id="github-collaboration-model" class="level3">
+<h3 class="anchored" data-anchor-id="github-collaboration-model">GitHub collaboration model</h3>
+<p>We follow GitHub’s collaboration model, so the general idea to make a post or edit a document is the same. The high-level steps include :</p>
+<ol type="1">
+<li>Get started with git and GitHub</li>
+<li>Create an issue announcing your plan to add a resource — see <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues">UW RSE Nexus Issues</a></li>
+<li>Fork the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus">UW RSE-Nexus repository</a></li>
+<li>Clone the forked repository onto your local machine</li>
+<li>Create a new branch</li>
+<li>Write the post
+<ul>
+<li>(optional) Preview and iterate</li>
+</ul></li>
+<li>commit and push the changes</li>
+<li>Make a pull request</li>
+<li>Wait for review</li>
+</ol>
+<p>If you don’t know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier alternative could be to <a href="https://desktop.github.com/">download GitHub desktop</a> and add your post using the instructions provided below. If you’d like to learn more about GitHub Desktop, check out the <a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html">Version Control with GitHub Desktop</a> guide on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the Data Science Hub’s <a href="https://datascience.wisc.edu/hub/#dropin">office hours (“Coding Meetup”)</a>.</p>
+<section id="get-started-with-github-desktop-recommended-if-youre-new-to-git-and-github" class="level4">
+<h4 class="anchored" data-anchor-id="get-started-with-github-desktop-recommended-if-youre-new-to-git-and-github">1. Get Started with GitHub Desktop (recommended if you’re new to Git and GitHub)</h4>
+<ol type="1">
+<li>Go to the <a href="https://github.com/apps/desktop">GitHub Desktop website</a> and download the application for your operating system. Install GitHub Desktop by following the on-screen instructions.</li>
+<li>Open GitHub Desktop and sign in with your GitHub account. If you don’t have one, you will need to <a href="https://github.com/join">create your GitHub account</a> first.</li>
+</ol>
+</section>
+<section id="create-an-issue-on-nexus-github" class="level4">
+<h4 class="anchored" data-anchor-id="create-an-issue-on-nexus-github">2. Create an Issue on Nexus GitHub</h4>
+<p>Before you start writing your content, create an issue on the Nexus GitHub to announce your intended addition. This helps the Nexus development team keep track of new contributions and provides an opportunity for feedback.</p>
+<ol type="1">
+<li>Go to the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues">Nexus GitHub Issues</a> page</li>
+<li>Click on the <code>New Issue</code> button.</li>
+<li>Title the issue with the name of your resource, and add a “Resource” label/tag (found on right side panel of issue post).</li>
+<li>Describe why you think this resource should be included on the Nexus platform.</li>
+<li>Wait for feedback: Wait for one of the Nexus developers to provide feedback or comments on your issue before proceeding.</li>
+</ol>
+</section>
+<section id="fork-the-repository" class="level4">
+<h4 class="anchored" data-anchor-id="fork-the-repository">3. Fork the Repository</h4>
+<p>The purpose of a Fork is to create a copy of the original repository that can be syncronized. In an open-source collaboration, the original repository will not allow you to make edits directly. Instead, you will update your Fork and then ask the original repository owners to integrate your changes through a Pull Request (PR), which you will do in step 8.</p>
+<ol type="1">
+<li>Go to the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus">UW RSE-Nexus repository</a> on GitHub.</li>
+<li>Click the <code>Fork</code> button at the top-right corner of the page.
+<ul>
+<li>This will create a copy of the repository under your GitHub account.</li>
+<li>You will now be able to make changes to your Forked copy of the repository.</li>
+</ul></li>
+</ol>
+</section>
+<section id="clone-the-repository-to-your-system-to-your-local-system" class="level4">
+<h4 class="anchored" data-anchor-id="clone-the-repository-to-your-system-to-your-local-system">4. Clone the Repository to Your System to Your Local System</h4>
+<p>Cloning your Fork to your local filesystem will allow you to use your development environment of choice to make changes.</p>
+<ol type="1">
+<li>From your new forked version of the repo on GitHub, click the green <code>Code</code> button to copy the HTTPS URL of the fork</li>
+<li>In GitHub Desktop, click on <code>File</code> &gt; <code>Clone Repository</code>.</li>
+<li>Paste the URL and click <code>Clone</code></li>
+</ol>
+</section>
+<section id="create-a-new-branch" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-new-branch">5. Create a New Branch</h4>
+<p>It is common practice to create a new branch anytime you perform work as a new feature, update, or fix. This is often called a “feature branch”. The name comes from the idea that each feature should have its own branch, in an effort to keep things tidy.</p>
+<ol type="1">
+<li>In GitHub Desktop, click on Branch &gt; New Branch.</li>
+<li>Name your new branch descriptively based on the resource type and name (e.g., workshop-introDL, video-NeurIPS2024, etc.).</li>
+</ol>
+</section>
+<section id="write-your-post" class="level4">
+<h4 class="anchored" data-anchor-id="write-your-post">6. Write Your Post</h4>
+<p>This is where you make changes to add your new content. Often times this starts by copying a template of your desired content (links below) into the desired folder and editing it to reflect the content you want to share.</p>
+<ol type="1">
+<li>Open your favorite text editor or IDE (e.g., Visual Studio Code, Sublime Text).</li>
+<li>Write your post in the appropriate format. Follow the guidelines below, making use the template files provided.</li>
+</ol>
+</section>
+<section id="resource-templates" class="level4">
+<h4 class="anchored" data-anchor-id="resource-templates">Resource templates</h4>
+<p>If applicable, start with one of the relevant template files linked below. There are comments in each template that will help you make the appropriate edits for your resource. You can also check out how other posts have been formatted by clicking “Improve this page” from a given post’s webpage. This will bring you directly to the qmd file for that post.</p>
+<ul>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-book.qmd">Educational - blog</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-bookp.qmd">Educational - book</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-video.qmd">Educational - video</a>: lectures, forums, seminars, etc.</p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-workshop.qmd">Educational - workshop</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_application-blog.qmd">Application - blog</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_application-video.qmd">Application - video</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-data.qmd">Toolbox - data</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-model.qmd">Toolbox - model</a></p></li>
+<li><p><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-library.qmd">Toolbox - library</a></p></li>
+</ul>
+</section>
+<section id="where-to-place-your-resource-qmd-file" class="level4">
+<h4 class="anchored" data-anchor-id="where-to-place-your-resource-qmd-file">Where to place your resource qmd file</h4>
+<p>We want the site to be constantly evolving with the community, and our intention is to keep the contributions to the site as free as possible. However, we added some sections to structure the site a little bit:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>├── Learn</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>│   ├── Blogs</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>│   ├── Books</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>│   ├── Guides</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>│   ├── Notebooks</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>│   ├── Videos</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>│   ├── Workshops</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>├── Toolbox</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>│   ├── Compute</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>│   ├── Data </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>│   ├── GenAI </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>│   ├── Libraries </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>│   ├── Models </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Note</strong>: Some subfolders may not exist yet (e.g., Code, Data) since no one has contributed a resource from one of those categories yet, and git doesn’t allow empty folders. If your resource doesn’t belong to one of the categories listed above, you may add a new one. We’ll discuss this new category when we review your initial “Issue” announcing the resource addition.</p>
+<section id="how-to-preview-new-content" class="level5">
+<h5 class="anchored" data-anchor-id="how-to-preview-new-content">How to preview new content</h5>
+<p>It is possible to preview the page you are creating on your local machine before you make the pull request, or even commit any changes. This requires Quarto to be installed on your local machine. Note that this can be very helpful, but try not to spend too much time iterating without committing, pushing, and completing the Pull Request process. You can always come back to this step and improve the content after it is submitted for review.</p>
+<ol type="1">
+<li><a href="https://quarto.org/docs/get-started/">Install Quarto</a> on your local machine</li>
+<li>Open terminal/shell/command line and run the <code>quarto preview &lt;my_new_content.qmd&gt;</code> command (replace &lt;my_new_content.qmd&gt; with your content file)</li>
+<li>Wait for the files to render (this can take a while the first time as it renders all pages the first time)</li>
+<li>A browser window should open with your version of the UW RSE Nexus page</li>
+<li>Review your changes</li>
+</ol>
+<p>While the <code>quarto preview</code> command is running, the content will update when it notices a change. This allows you to iterate quickly between review and editing. When you want to stop previewing, cancel the <code>quarto preview</code> command. Usually this is done by pressing <code>Ctrl</code>+<code>C</code> in the terminal window.</p>
+</section>
+</section>
+<section id="commit-and-push-changes" class="level4">
+<h4 class="anchored" data-anchor-id="commit-and-push-changes">7. Commit and Push Changes</h4>
+<p>Commit and push changes to your feature branch as you work. You can commit and push as many times as you want to track the updates anc changes you’ve made.</p>
+<ol type="1">
+<li>In GitHub Desktop, you should see your changes listed under Changes.</li>
+<li>Write a descriptive commit message (e.g., Add new resource: workshop-introDL).</li>
+<li>Click <code>Commit to your-branch-name</code>.</li>
+<li>Click on <code>Repository</code> &gt; <code>Push</code> to push your changes to GitHub.</li>
+</ol>
+</section>
+<section id="make-a-pull-request" class="level4">
+<h4 class="anchored" data-anchor-id="make-a-pull-request">8. Make a Pull Request</h4>
+<p>Pull Request (PR) is the term used when you <em>request</em> that one branch be <em>pulled</em> into another. The process of combining branches is often called a merge. In this case, you will ask the original repository to merge your Fork’s feature branch into their main branch. This PR will notify the original repository owner of your request and will then be reviewed.</p>
+<ol type="1">
+<li>Go to your forked repository on GitHub.</li>
+<li>Click on the Compare &amp; pull request button.</li>
+<li>Ensure you are merging into the “main” branch of the UW RSE-Nexus repository.</li>
+<li>Write a descriptive title and comment for your pull request.</li>
+<li>Click <code>Create pull request</code>.</li>
+</ol>
+</section>
+<section id="wait-for-review" class="level4">
+<h4 class="anchored" data-anchor-id="wait-for-review">9. Wait for Review</h4>
+<p>Your Pull Request (PR) will need to be reviewed by the owner of the original repository.</p>
+<ol type="1">
+<li>One of the Nexus developers will review your pull request. They may provide feedback or request changes.</li>
+<li>Address any feedback and push additional commits as needed.</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="how-to-improve-an-existing-post" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-improve-an-existing-post">How to improve an existing post?</h2>
+<p>Want to add a code-along exercise to an existing post, add your perspective, or correct a typo? Anyone is welcome and encouraged to suggest improvements to existing materials hosted on Nexus! The most straightforward way to do this is to click “Improve this page” from the post’s webpage on Nexus to suggest your edits. The below steps will walk you through this process.</p>
+<section id="steps-to-improve-a-post-on-nexus-via-github-no-software-installation-needed" class="level4">
+<h4 class="anchored" data-anchor-id="steps-to-improve-a-post-on-nexus-via-github-no-software-installation-needed">Steps to improve a post on Nexus via GitHub (no software installation needed):</h4>
+<ol type="1">
+<li><p><strong>Click “Improve this page”:</strong> This will redirect you to the GitHub repository where the content of the post is stored.</p></li>
+<li><p><strong>Edit the file directly on GitHub:</strong></p>
+<ul>
+<li>On the GitHub page, click the pencil icon (✏️) at the top right of the file to edit the content directly in your browser. No need to install any git software!</li>
+<li>Make your changes in the text editor. You can add a code-long exercise, share your perspective, or correct any typos.</li>
+</ul></li>
+<li><p><strong>Commit your changes:</strong></p>
+<ul>
+<li>After you have made your edits, scroll down to the “Commit changes” section.</li>
+<li>Write a brief description of what you changed.</li>
+<li>Choose the option to “Create a new branch for this commit and start a pull request.”</li>
+</ul></li>
+<li><p><strong>Create a pull request:</strong></p>
+<ul>
+<li>Click the “Propose changes” button.</li>
+<li>You will be taken to a new page where you can review your changes.</li>
+<li>Click “Create pull request” to submit your changes for review.</li>
+</ul></li>
+</ol>
+<p>Congratulations! You have suggested an improvement to a Nexus post. The repository maintainers will review your pull request, and if everything looks good, your changes will be merged into the post.</p>
+<p><strong>Note:</strong> While you can make these edits directly on GitHub without any software installation, we recommend all ML practitioners learn git! <a href="https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/#category=Git/GitHub">Check out our git category search resources</a>.</p>
+</section>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
+<p>If you any lingering questions on how to contribute, please feel free to post to the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a">Nexus Q&amp;A</a> on GitHub. We will improve this guide based on additional questions/comments we receive.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../Learn/index.html" class="pagination-link" aria-label="Learn">
+        <span class="nav-page-text">Learn</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/Learn/Guides/How-to-contribute.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
