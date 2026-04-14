@@ -1,0 +1,1 @@
+Sitemap: https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/sitemap.xml
