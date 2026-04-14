@@ -1,0 +1,61 @@
+# -------------------------------------------------------------------------------------
+# GitHub Actions Workflow: Save GitHub Insights (Scheduled)
+# -------------------------------------------------------------------------------------
+# This workflow does the following:
+# 1. Runs a script to save GitHub repository insights (e.g., contributors, commit data)
+# 2. Commits and pushes any changes made by the script
+#
+# It runs on:
+# - A weekly schedule (every Monday at 0900 UTC [Monday at ~0300 CT])
+# - Manual runs from the GitHub UI (workflow_dispatch)
+# -------------------------------------------------------------------------------------
+
+#.github/workflows/save-insights.yml
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 0900 UTC
+  workflow_dispatch:
+
+name: Save GitHub Insights
+
+jobs:
+  save-insights:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install pandas numpy matplotlib seaborn scikit-learn \
+                      scipy statsmodels jupyter nbformat missingno
+
+      - name: Run Insights Script
+        env:
+          REPO_NAME: ${{ github.repository }}
+          TOKEN: ${{ secrets.GH_PAT }}
+        run: python insights/save_insights.py
+
+      -name: Commit and Push Insights
+        run: |
+          git config --local user.email "rbemowski@wisc.edu"
+          git config --local user.name "rbemowski"
+          git add insights/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Save GitHub Insights (scheduled)"
+            git push
+          fi
+          
