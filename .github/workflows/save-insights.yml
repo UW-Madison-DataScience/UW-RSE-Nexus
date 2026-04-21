@@ -34,7 +34,6 @@ jobs:
         with:
           python-version: '3.10'
 
-
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
@@ -47,7 +46,7 @@ jobs:
           TOKEN: ${{ secrets.GH_PAT }}
         run: python insights/save_insights.py
 
-      -name: Commit and Push Insights
+      - name: Commit and Push Insights
         run: |
           git config --local user.email "rbemowski@wisc.edu"
           git config --local user.name "rbemowski"
