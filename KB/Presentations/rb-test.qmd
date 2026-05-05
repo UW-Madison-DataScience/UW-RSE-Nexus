@@ -1,0 +1,60 @@
+---
+title: "Title/Topic of Resource" # enter the title of the resource (typically the name of the presentation/article/workshop/video/book/etc. )
+author: 
+  - name: First Last # replace with your name
+    email: myemail@wisc.edu # If you prefer not to share your email, delete this entire line (including "email:").
+
+date: YYYY-MM-DD # enter today's date as YYYY-MM-DD
+date-format: long # leave as is
+image: "/images/vincent-van-zalinge-mDohQISBnCk-unsplash.jpg" # In your local copy of the Nexus repository, add a representative image for this resource to the images folder. Both PNGs and JPGs are acceptable formats. Adjust the filename here from "vincent-van-zalinge-mDohQISBnCk-unsplash.jpg" to the name of your image.
+
+# Enter a list of relevant categories/tags for this resource, including the type (workshop, book, video, podcast, etc.) topic of focus, and anything else that might be relevant. Please check out the tags which are already being used on Nexus by visiting https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/ and looking under "Categories". Avoid repeating tags with alternative spelling (e.g., use Deep Learning rather than DL since Deep Learning is already being used.). 
+# Example categories below:
+categories: 
+  - Wrangling # Deep learning, Regression, Large language models, NLP, Clustering, Decision trees, etc.
+  - Open-Source # If there is a codebase, is it open-source?
+  - Python # Python, R, PyTorch, Keras, Tensorflow, Sklearn, etc.
+  - Package # Is this a package or library for use in other projects?
+  - Presentation # Presentation, Workshops, Books, Podcasts, Videos, Blogs, Models, Datasets, EDA, etc.
+    # Include this tag for any resource that involves coding along as a learning mechanism (e.g., workshop, short demo/guide with code examples)
+    # Anything else you think people may want to group this by 
+---
+<!-- MARKDOWN COMMENT: For a good example of an external resource post, check out: 
+https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Workshops/Intro-Deeplearning_Keras.html
+
+... and the .qmd file which stores the page's content
+https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Learn/Workshops/Intro-Deeplearning_Keras.qmd
+
+-->
+## {{< meta title >}}
+<!-- MARKDOWN COMMENT: Replace the instructions below with your a brief overview or abstract of your presentation -->
+
+Brief description of the resource, including a [text embedded link](URL) in the first 1-2 sentences. Explain what the 
+resource covers and its relevance. Mention any specific features, strengths, or weaknesses. This section should help 
+potential users understand the value of the resource and what they can expect to learn or achieve by using it. 
+
+### Slides
+- [{{< meta title >}} slidedeck](/slides/my_slidedeck_name.ppt)
+- [{{< meta title >}} slidedeck (download)](/slides/my_slidedeck_name.ppt){download=""}
+<!-- MARKDOWN COMMENT: If you are using an external link to slides, update the to the URL. If you are using a
+local copy of slides, use "/slides/my_slides.ppt", replacing my_slides.ppt with your file. You can use a download 
+and non-download version using the {download=""} bit of markdown to force it to download.
+-->
+
+
+## Questions?
+If you any lingering questions about this resource, please feel free to post to the [Nexus Q&A](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a) on GitHub. 
+We will improve materials on this website as additional questions come in.
+
+## See also
+<!-- MARKDOWN COMMENT: Please Check the existing resources on Nexus to see if any other related resources 
+(e.g., related books/videos, blog posts commenting on the resource, alternative approaches/frameworks, etc.) 
+should be linked below. You may also link to resources which aren't currently on the Nexus platform, if applicable. 
+However, if you're feeling ambitious, you may wish to post those to Nexus as well!
+NOTE: When doing related resources links to UW RSE Nexus pages, please use local pathing to the .qmd file instead
+of the web url. So, use "/KB/Guides/some_guide.qmd" instead of the "https://.../some_guide.html" URL.
+-->
+- [Related Resource 1](Link to related resource 1): Brief description of related resource 1.
+- [Related Resource 2](Link to related resource 2): Brief description of related resource 2.
+- [Related Resource 3](Link to related resource 3): Brief description of related resource 3.
+
