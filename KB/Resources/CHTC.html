@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Chris Endemann">
+<meta name="dcterms.date" content="2024-06-25">
 
-<title>MLOps – Nexus: Crowdsourced ML Resources</title>
+<title>Center for High Throughput Computing (CHTC) – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dfa7ea00ff9fddc279d094690cd4d871.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f6cbeaba7619c91bc9fde327f254e826.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,65 +71,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -142,7 +84,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">MLOps</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Center for High Throughput Computing (CHTC)</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,7 +94,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -179,49 +121,43 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../Learn/Guides/How-to-contribute.html" class="sidebar-item-text sidebar-link">
+  <a href="../../KB/Guides/How-to-contribute.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to contribute?</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../Learn/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Learn</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a href="../../KB/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knowledge Base</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../Learn/Blogs/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blogs</span></a>
+  <a href="../../KB/Presentations/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../Learn/Books/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Books</span></a>
+  <a href="../../KB/Resources/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../Learn/Guides/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../KB/Guides/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guides</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../Learn/Workshops/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workshops</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Category glossary</span></a>
+  <a href="../../Projects/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
   </div>
 </li>
     </ul>
@@ -230,20 +166,47 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-this-resource" id="toc-about-this-resource" class="nav-link active" data-scroll-target="#about-this-resource">About this resource</a>
+  <ul class="collapse">
+  <li><a href="#run-machine-learning-jobs-on-chtc-gpus-available" id="toc-run-machine-learning-jobs-on-chtc-gpus-available" class="nav-link" data-scroll-target="#run-machine-learning-jobs-on-chtc-gpus-available">Run machine learning jobs on CHTC — GPUs available</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Resources/CHTC.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MLOps</h1>
-</div>
+<h1 class="title">Center for High Throughput Computing (CHTC)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Compute</div>
+    <div class="quarto-category">GPU</div>
+    <div class="quarto-category">CHTC</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chris Endemann <a href="mailto:endemann@wisc.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 25, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -253,27 +216,19 @@ window.Quarto = {
 </header>
 
 
-<p>Explore lifecycle tools that help you run ML projects reliably and repeatably—covering:</p>
-<ul>
-<li><strong>Experiment tracking</strong> (runs, metrics, params, artifacts)</li>
-<li><strong>Model registry</strong> (versioning, stage transitions, lineage)</li>
-<li><strong>Pipelines &amp; orchestration</strong> (reproducible builds, CI/CD)</li>
-<li><strong>Serving &amp; deployment</strong> (APIs, batch jobs)</li>
-<li><strong>Monitoring</strong> (drift, performance, data/infra health)</li>
-</ul>
-<blockquote class="blockquote">
-<p>Tip: If it primarily <em>manages</em> your workflow (not just a Python import), it belongs here. Examples: MLflow, Weights &amp; Biases, DVC, ClearML, Kubeflow Pipelines, Feast, BentoML, Seldon Core.</p>
-</blockquote>
+<section id="about-this-resource" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-resource">About this resource</h2>
+<p>Established in 2006, the <a href="https://chtc.cs.wisc.edu/">Center for High Throughput Computing (CHTC)</a> is committed to democratizing access to powerful computing resources across all research domains. From their website: &gt; We are the University of Wisconsin-Madison’s core computational service provider for large scale computing. CHTC services are open to UW-Madison staff, students, faculty, and external collaborators. &gt; We offer both a High Throughput Computing system and a High Performance Computing cluster. Access to CPUs/GPUs, high-memory servers, data storage capacity, as well as personalized consultations and classroom support, are provided at no-cost.</p>
+<p>Are you a researcher at UW-Madison seeking to extend your computing capabilities beyond local resources, particularly for machine learning tasks? <a href="https://chtc.cs.wisc.edu/uw-research-computing/form.html">Request an account now</a> to take advantage of the open computing services offered by the CHTC!</p>
+<section id="run-machine-learning-jobs-on-chtc-gpus-available" class="level3">
+<h3 class="anchored" data-anchor-id="run-machine-learning-jobs-on-chtc-gpus-available">Run machine learning jobs on CHTC — GPUs available</h3>
+<p>This <a href="https://chtc.cs.wisc.edu/uw-research-computing/machine-learning-htc">guide</a> provides some of our recommendations for success in running machine learning (specifically deep learning) jobs in CHTC. If you need help leveraging any of the CHTC resources, please reach out to <a href="mailto:chtc@cs.wisc.edu">chtc@cs.wisc.edu</a>.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -679,4 +634,4 @@ window.Quarto = {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/Toolbox/MLOps/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Resources/CHTC.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

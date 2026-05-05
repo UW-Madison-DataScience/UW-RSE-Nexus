@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="First Last">
 
-<title>Dataset Name – Nexus: Crowdsourced ML Resources</title>
+<title>UW RSE Knowledge Base – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +32,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../KB/Presentations/index.html" rel="next">
+<link href="../KB/Guides/How-to-contribute.html" rel="prev">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -42,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dfa7ea00ff9fddc279d094690cd4d871.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f6cbeaba7619c91bc9fde327f254e826.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -83,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Dataset Name</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../KB/index.html">Knowledge Base</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -93,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -120,49 +181,43 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Learn/Guides/How-to-contribute.html" class="sidebar-item-text sidebar-link">
+  <a href="../KB/Guides/How-to-contribute.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to contribute?</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../Learn/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Learn</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a href="../KB/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Knowledge Base</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Learn/Blogs/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blogs</span></a>
+  <a href="../KB/Presentations/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Learn/Books/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Books</span></a>
+  <a href="../KB/Resources/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Learn/Guides/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../KB/Guides/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guides</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Learn/Workshops/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workshops</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Category glossary</span></a>
+  <a href="../Projects/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
   </div>
 </li>
     </ul>
@@ -171,48 +226,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#about-this-resource" id="toc-about-this-resource" class="nav-link active" data-scroll-target="#about-this-resource">About this resource</a></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
-  <li><a href="#see-also" id="toc-see-also" class="nav-link" data-scroll-target="#see-also">See also</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/Contributor-templates/template_toolbox-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2FycGVudHJpZXM=">Carpentries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29kZS1hbG9uZw==">Code-along <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJpYnV0ZQ==">Contribute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0JTJGR2l0SHVi">Git/GitHub <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1BV">GPU <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3VpZGVz">Guides <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VmlkZW9z">Videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dataset Name</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Data</div>
-    <div class="quarto-category">Dataset Type Descriptor 1</div>
-    <div class="quarto-category">Dataset Type Descriptor 2</div>
-    <div class="quarto-category">Domain</div>
-    <div class="quarto-category">Other Relevant Categories</div>
-  </div>
-  </div>
+<h1 class="title">UW RSE Knowledge Base</h1>
+</div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>First Last <a href="mailto:myemail@domain.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
   
     
   </div>
@@ -222,88 +249,154 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about-this-resource" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-resource">About this resource</h2>
-<p>The [Dataset Name] dataset contains [description of data: what it consists of, its size, and the variety of contents]. Researchers and students working on machine learning applications can use this dataset to explore tasks such as [relevant tasks: classification, regression, generation, etc.]. The dataset’s availability in [formats, e.g., text, image, tabular, audio, etc.] makes it suitable for [type of tasks, e.g., multimodal learning, NLP, image analysis, etc.] tasks as well.</p>
-<section id="key-features" class="level4">
-<h4 class="anchored" data-anchor-id="key-features">Key features</h4>
-<ul>
-<li><strong>Feature 1</strong>: Describe a key feature of the dataset, e.g., modality, format availability, data variety, etc.
-<ul>
-<li>For text: Could include multilingual content, long-form text, etc.</li>
-<li>For images: Could include resolution, labeled/annotated data, specific objects/subjects present, etc.</li>
-<li>For tabular: Could include number of features, type of features (categorical, continuous), missing data, etc.</li>
-</ul></li>
-<li><strong>Feature 2</strong>: Describe another key feature
-<ul>
-<li>For text: Possible audio pairings, language variety</li>
-<li>For images: Pre-segmented images, spatial resolution, etc.</li>
-<li>For tabular: Structured metadata, time-series elements, etc.</li>
-</ul></li>
-<li><strong>Feature 3</strong>: Highlight any distinguishing characteristics
-<ul>
-<li>For text: Long-form, document-level annotations, etc.</li>
-<li>For images: Bounding boxes, pixel-level segmentation, medical imaging, etc.</li>
-<li>For tabular: Feature engineering potential, handling large-scale datasets, etc.</li>
-</ul></li>
-</ul>
-</section>
-<section id="key-applications" class="level4">
-<h4 class="anchored" data-anchor-id="key-applications">Key applications</h4>
-<ul>
-<li><strong>Application 1</strong>: Describe how the dataset can be used in a specific task, e.g., language modeling, classification
-<ul>
-<li>For text: Language modeling, translation, classification, Sentiment analysis, summarization, Topic modeling, question answering</li>
-<li>For images: Object detection, image classification, image segmentation, Face detection, scene understanding, Image generation, style transfer, medical diagnostics</li>
-<li>For tabular: Predictive modeling, classification, time-series forecasting</li>
-</ul></li>
-<li><strong>Application 2</strong>: Include more specific machine learning tasks the dataset is commonly applied to</li>
-<li><strong>Multimodal Learning, if applicable</strong>: If the dataset supports multimodal tasks, describe how it can be used in this context
-<ul>
-<li>E.g., paired image and text, or text and audio datasets</li>
-</ul></li>
-<li><strong>Transfer Learning, if applicable</strong>: Mention transfer learning use cases
-<ul>
-<li>For all types: Fine-tuning pre-trained models for specific tasks using this dataset</li>
-</ul></li>
-<li><strong>Data Augmentation, if applicable</strong>: Explain how the dataset can be used to augment smaller datasets
-<ul>
-<li>Text: Generating more training data via paraphrasing, etc.</li>
-<li>Images: Rotations, flips, color variations</li>
-<li>Tabular: Synthetic data generation, imputation of missing values</li>
-</ul></li>
-</ul>
-</section>
-<section id="related-datasets-projects" class="level4">
-<h4 class="anchored" data-anchor-id="related-datasets-projects">Related datasets &amp; projects</h4>
-<ul>
-<li><strong>Related Dataset 1</strong>: Provide a brief description of a related dataset or project
-<ul>
-<li>For text: Could include other large corpora (e.g., Common Crawl)</li>
-<li>For images: COCO, ImageNet, etc.</li>
-<li>For tabular: UCI Machine Learning Repository, Kaggle datasets</li>
-</ul></li>
-<li><strong>Related Dataset 2</strong>: Include any other related projects or datasets that users may find useful</li>
-</ul>
-</section>
-</section>
-<section id="questions" class="level2">
-<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
-<p>If you have any lingering questions about this resource, feel free to post them on the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a">UW RSE Nexus Q&amp;A</a> on GitHub. We will update this resource as new information or applications arise.</p>
-</section>
-<section id="see-also" class="level2">
-<h2 class="anchored" data-anchor-id="see-also">See also</h2>
-<!-- MARKDOWN COMMENT: Please Check the existing resources on Nexus to see if any other related resources (e.g., related books/videos, blog posts commenting on the resource, alternative approaches/frameworks, etc.) should be linked below. You may also link to resources which aren't currently on the Nexus platform, if applicable. However, if you're feeling ambitious, you may wish to post those to Nexus as well!  -->
-<ul>
-<li><a href="Link to related resource 1">Related Resource 1</a>: Brief description of related resource 1.</li>
-<li><a href="Link to related resource 2">Related Resource 2</a>: Brief description of related resource 2.</li>
-<li><a href="Link to related resource 3">Related Resource 3</a>: Brief description of related resource 3</li>
-</ul>
+<p>Explore previous UW RSE community presentations, projects and other resources. Feel free to <a href="../KB/Guides/How-to-contribute.html">contribute</a> if you have something related to share.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="R3VpZGVzJTJDQ29udHJpYnV0ZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1777987824417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2139">
+<a href="../KB/Guides/How-to-contribute.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/DALL·E_knowledge-sharing-AI.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to Contribute?
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R3VpZGVz'); return false;">Guides</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udHJpYnV0ZQ=='); return false;">Contribute</div>
+
+</div>
+<div class="card-text listing-description delink">
+We want Nexus to serve also as a place where members of the community can share their knowledge. This guide answers the question, how to contribute to Nexus?
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+UW RSE
+</div>
+<div class="listing-date">
+2026-04-10
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="R3VpZGVzJTJDUmVwcm9kdWNpYmlsaXR5JTJDR2l0JTJGR2l0SHViJTJDQ29kZS1hbG9uZw==" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1777987824417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629">
+<a href="../KB/Guides/Github-desktop.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/github-desktop.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Version Control with GitHub Desktop
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R3VpZGVz'); return false;">Guides</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">Reproducibility</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2l0JTJGR2l0SHVi'); return false;">Git/GitHub</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29kZS1hbG9uZw=='); return false;">Code-along</div>
+
+</div>
+<div class="card-text listing-description delink">
+Navigating the world of version control systems like Git can initially feel daunting, especially for those new to programming or collaborative software development projects.…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Chris Endemann
+</div>
+<div class="listing-date">
+2024-07-11
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="V29ya3Nob3BzJTJDVmlkZW9zJTJDUmVwcm9kdWNpYmlsaXR5JTJDQ2FycGVudHJpZXMlMkNHaXQlMkZHaXRIdWIlMkNDb2RlLWFsb25n" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1777987824417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
+<a href="../KB/Guides/Intro-git-github.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/git-github.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Version Control with Git and GitHub (Carpentries)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('V29ya3Nob3Bz'); return false;">Workshops</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VmlkZW9z'); return false;">Videos</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">Reproducibility</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FycGVudHJpZXM='); return false;">Carpentries</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2l0JTJGR2l0SHVi'); return false;">Git/GitHub</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29kZS1hbG9uZw=='); return false;">Code-along</div>
+
+</div>
+<div class="card-text listing-description delink">
+The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Chris Endemann
+</div>
+<div class="listing-date">
+2024-07-11
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Q29tcHV0ZSUyQ0dQVSUyQ0NIVEM=" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1777987824417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<a href="../KB/Resources/CHTC.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/CHTC.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Center for High Throughput Computing (CHTC)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0ZQ=='); return false;">Compute</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1BV'); return false;">GPU</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q0hUQw=='); return false;">CHTC</div>
+
+</div>
+<div class="card-text listing-description delink">
+Established in 2006, the Center for High Throughput Computing (CHTC) is committed to democratizing access to powerful computing resources across all research domains. From…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Chris Endemann
+</div>
+<div class="listing-date">
+2024-06-25
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -704,9 +797,21 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../KB/Guides/How-to-contribute.html" class="pagination-link" aria-label="How to contribute?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to contribute?</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../KB/Presentations/index.html" class="pagination-link" aria-label="Presentations">
+        <span class="nav-page-text">Presentations</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/Contributor-templates/template_toolbox-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
