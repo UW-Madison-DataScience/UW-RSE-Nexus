@@ -11,7 +11,7 @@
     "href": "KB/index.html",
     "title": "UW RSE Knowledge Base",
     "section": "",
-    "text": "Explore previous UW RSE community presentations, projects and other resources. Feel free to contribute if you have something related to share.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nCenter for High Throughput Computing (CHTC)\n\n\n\nCompute\n\nGPU\n\nCHTC\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-06-25\n\n\n\n\n\n\nNo matching items",
+    "text": "Explore previous UW RSE community presentations, projects and other resources. Feel free to contribute if you have something related to share.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing the UW RSE Nexus\n\n\n\nCollaboration\n\nOpen-Source\n\nPython\n\nQuarto\n\nPresentation\n\n\n\n\n\n\n\nRyan Bemowski\n\n\n2026-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nCenter for High Throughput Computing (CHTC)\n\n\n\nCompute\n\nGPU\n\nCHTC\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-06-25\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Knowledge Base"
     ]
@@ -31,245 +31,15 @@
     "text": "Established in 2006, the Center for High Throughput Computing (CHTC) is committed to democratizing access to powerful computing resources across all research domains. From their website:\n\nWe are the University of Wisconsin-Madison’s core computational service provider for large scale computing. CHTC services are open to UW-Madison staff, students, faculty, and external collaborators. We offer both a High Throughput Computing system and a High Performance Computing cluster. Access to CPUs/GPUs, high-memory servers, data storage capacity, as well as personalized consultations and classroom support, are provided at no-cost.\n\nAre you a researcher at UW-Madison seeking to extend your computing capabilities beyond local resources, particularly for machine learning tasks? Request an account now to take advantage of the open computing services offered by the CHTC!\n\n\nThis guide provides some of our recommendations for success in running machine learning (specifically deep learning) jobs in CHTC. If you need help leveraging any of the CHTC resources, please reach out to chtc@cs.wisc.edu."
   },
   {
-    "objectID": "KB/Guides/index.html",
-    "href": "KB/Guides/index.html",
-    "title": "Guides",
+    "objectID": "KB/Presentations/index.html",
+    "href": "KB/Presentations/index.html",
+    "title": "Presentations",
     "section": "",
-    "text": "Explore helpful guides for software, packages, and other Research Software Engineering tools.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\nNo matching items",
+    "text": "Explore past presentations given at UW RSE events. If you have an upcomming presentation or have already given one, feel free to contribute.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing the UW RSE Nexus\n\n\n\nCollaboration\n\nOpen-Source\n\nPython\n\nQuarto\n\nPresentation\n\n\n\n\n\n\n\nRyan Bemowski\n\n\n2026-05-05\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Knowledge Base",
-      "Guides"
+      "Presentations"
     ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html",
-    "href": "KB/Guides/How-to-contribute.html",
-    "title": "How to Contribute?",
-    "section": "",
-    "text": "We want Nexus to serve also as a place where members of the community can share their knowledge. This guide answers the question, how to contribute to Nexus?",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#what-kinds-of-resources-are-hosted-on-nexus",
-    "href": "KB/Guides/How-to-contribute.html#what-kinds-of-resources-are-hosted-on-nexus",
-    "title": "How to Contribute?",
-    "section": "What kinds of resources are hosted on Nexus?",
-    "text": "What kinds of resources are hosted on Nexus?\nAny content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#need-inspiration-for-a-good-topic-to-post-about",
-    "href": "KB/Guides/How-to-contribute.html#need-inspiration-for-a-good-topic-to-post-about",
-    "title": "How to Contribute?",
-    "section": "Need inspiration for a good topic to post about?",
-    "text": "Need inspiration for a good topic to post about?\nAn ever-expanding list of requested resources can be found on the Issues page (on GitHub). Search for open issues that have the “Resource” label to check out some of our top priorities. If you’d like to tackle a given issue, please comment on the issue to let others know.",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#what-makes-a-good-post",
-    "href": "KB/Guides/How-to-contribute.html#what-makes-a-good-post",
-    "title": "How to Contribute?",
-    "section": "What makes a good post?",
-    "text": "What makes a good post?\nCreating a useful and engaging post for the UW RSE Nexus involves a few key elements to ensure it is beneficial for the community. Here are some general guidelines to follow:\n\nClear and concise title\nThe title should accurately reflect the content and main focus of the post. It should be engaging and specific, allowing readers to quickly understand what they can expect.\n\n\nDetailed description\nProvide a comprehensive overview of the resource or topic. This should include:\n\nPurpose and scope: Clearly state what the resource covers and its main objectives. Explain why the content is valuable and how it can help practitioners.\nKey features: Highlight the unique aspects or strengths of the resource. This could include practical examples, interactive elements, or real-world applications.\nStrengths and weaknesses: Provide a balanced view by discussing both the strengths and any potential limitations of the resource. This helps users make informed decisions about whether the resource is right for them.\n\n\n\nPrerequisites\nList any necessary background knowledge or skills required to fully benefit from the resource. This helps set expectations and ensures that users are adequately prepared. Include links to additional resources or tutorials that can help users gain the required knowledge.\n\n\nEstimated time to complete\nOffer an estimate of the time commitment needed to complete the resource. This helps users plan their learning activities and manage their time effectively.\n\n\nAccessibility and usability\nEnsure the resource is easy to access and use. We want the majority of resources on Nexus to be free and open source (with possibly a few rare exceptions for tools/resources in high-demand). Provide clear instructions on how to navigate and utilize the content. If the resource is hosted externally, include a direct link and any necessary login or access information.\n\n\nAdditional related resources\nInclude links to related materials or further readings that can enhance the user’s understanding and provide more in-depth knowledge on the topic. This can include books, articles, other workshops, or case studies. When possible, link to any relevant materials which are already hosted on the Nexus platform.\n\n\nExamples of good posts\nPlease see below for a list of resources that meet our platform’s standards. You can use these examples in conjunction with the template files provided in the next section to create your post. You can click “Improve this page” near the top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the GitHub repo.\n\nExternal content\n\n\nOriginal content\n\nKnowledge Base: Guide",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#how-to-make-a-new-post-with-github",
-    "href": "KB/Guides/How-to-contribute.html#how-to-make-a-new-post-with-github",
-    "title": "How to Contribute?",
-    "section": "How to make a new post with GitHub?",
-    "text": "How to make a new post with GitHub?\n\nPrerequisites\nYou do not necessarily need specific training in anything, but you will need to use git and GitHub:\n\nSome familiarity with git or GitHub Desktop (clone, pull, commit, push)\nA GitHub account and some familiarity with GitHub (Fork, Issues, Pull Request)\n\n\n\nGitHub collaboration model\nWe follow GitHub’s collaboration model, so the general idea to make a post or edit a document is the same. The high-level steps include :\n\nGet started with git and GitHub\nCreate an issue announcing your plan to add a resource — see UW RSE Nexus Issues\nFork the UW RSE Nexus repository\nClone the forked repository onto your local machine\nCreate a new branch\nWrite the post\n\n(optional) Preview and iterate\n\ncommit and push the changes\nMake a pull request\nWait for review\n\nIf you don’t know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier alternative could be to download GitHub desktop and add your post using the instructions provided below. If you’d like to learn more about GitHub Desktop, check out the Version Control with GitHub Desktop guide on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the Data Science Hub’s office hours (“Coding Meetup”).\n\n1. Get Started with GitHub Desktop (recommended if you’re new to Git and GitHub)\n\nGo to the GitHub Desktop website and download the application for your operating system. Install GitHub Desktop by following the on-screen instructions.\nOpen GitHub Desktop and sign in with your GitHub account. If you don’t have one, you will need to create your GitHub account first.\n\n\n\n2. Create an Issue on Nexus GitHub\nBefore you start writing your content, create an issue on the Nexus GitHub to announce your intended addition. This helps the Nexus development team keep track of new contributions and provides an opportunity for feedback.\n\nGo to the UW RSE Nexus GitHub Issues page\nClick on the New Issue button.\nTitle the issue with the name of your resource, and add a “Resource” label/tag (found on right side panel of issue post).\nDescribe why you think this resource should be included on the Nexus platform.\nWait for feedback: Wait for one of the Nexus developers to provide feedback or comments on your issue before proceeding.\n\n\n\n3. Fork the Repository\nThe purpose of a Fork is to create a copy of the original repository that can be syncronized. In an open-source collaboration, the original repository will not allow you to make edits directly. Instead, you will update your Fork and then ask the original repository owners to integrate your changes through a Pull Request (PR), which you will do in step 8.\n\nGo to the UW RSE Nexus repository on GitHub.\nClick the Fork button at the top-right corner of the page.\n\nThis will create a copy of the repository under your GitHub account.\nYou will now be able to make changes to your Forked copy of the repository.\n\n\n\n\n4. Clone the Repository to Your System to Your Local System\nCloning your Fork to your local filesystem will allow you to use your development environment of choice to make changes.\n\nFrom your new forked version of the repo on GitHub, click the green Code button to copy the HTTPS URL of the fork\nIn GitHub Desktop, click on File &gt; Clone Repository.\nPaste the URL and click Clone\n\n\n\n5. Create a New Branch\nIt is common practice to create a new branch anytime you perform work as a new feature, update, or fix. This is often called a “feature branch”. The name comes from the idea that each feature should have its own branch, in an effort to keep things tidy.\n\nIn GitHub Desktop, click on Branch &gt; New Branch.\nName your new branch descriptively based on the resource type and name (e.g., workshop-introDL, video-NeurIPS2024, etc.).\n\n\n\n6. Write Your Post\nThis is where you make changes to add your new content. Often times this starts by copying a template of your desired content (links below) into the desired folder and editing it to reflect the content you want to share.\n\nOpen your favorite text editor or IDE (e.g., Visual Studio Code, Sublime Text).\nWrite your post in the appropriate format. Follow the guidelines below, making use the template files provided.\n\n\n\nResource templates\nIf applicable, start with one of the relevant template files linked below. There are comments in each template that will help you make the appropriate edits for your resource. You can also check out how other posts have been formatted by clicking “Improve this page” from a given post’s webpage. This will bring you directly to the qmd file for that post.\n\nKnowledge Base - Presentation\nProject\n\n\n\nWhere to place your resource qmd file\nWe want the site to be constantly evolving with the community, and our intention is to keep the contributions to the site as free as possible. However, we added some sections to structure the site a little bit:\n\n├── Knowledge Base\n│   ├── Presentations\n│   ├── Resources\n│   ├── Guides\n├── Projects\nNote: If you think your resource does not fit into one of these areas, we have the power to expand. Create an issue on the UW RSE Nexus GitHub. From there we can discuss and adjust.\n\nHow to preview new content\nIt is possible to preview the page you are creating on your local machine before you make the pull request, or even commit any changes. This requires Quarto to be installed on your local machine. Note that this can be very helpful, but try not to spend too much time iterating without committing, pushing, and completing the Pull Request process. You can always come back to this step and improve the content after it is submitted for review.\n\nInstall Quarto on your local machine\nOpen terminal/shell/command line and run the quarto preview &lt;my_new_content.qmd&gt; command (replace &lt;my_new_content.qmd&gt; with your content file)\nWait for the files to render (this can take a while the first time as it renders all pages the first time)\nA browser window should open with your version of the UW RSE Nexus page\nReview your changes\n\nWhile the quarto preview command is running, the content will update when it notices a change. This allows you to iterate quickly between review and editing. When you want to stop previewing, cancel the quarto preview command. Usually this is done by pressing Ctrl+C in the terminal window.\n\n\n\n7. Commit and Push Changes\nCommit and push changes to your feature branch as you work. You can commit and push as many times as you want to track the updates anc changes you’ve made.\n\nIn GitHub Desktop, you should see your changes listed under Changes.\nWrite a descriptive commit message (e.g., Add new resource: workshop-introDL).\nClick Commit to your-branch-name.\nClick on Repository &gt; Push to push your changes to GitHub.\n\n\n\n8. Make a Pull Request\nPull Request (PR) is the term used when you request that one branch be pulled into another. The process of combining branches is often called a merge. In this case, you will ask the original repository to merge your Fork’s feature branch into their main branch. This PR will notify the original repository owner of your request and will then be reviewed.\n\nGo to your forked repository on GitHub.\nClick on the Compare & pull request button.\nEnsure you are merging into the “main” branch of the UW RSE-Nexus repository.\nWrite a descriptive title and comment for your pull request.\nClick Create pull request.\n\n\n\n9. Wait for Review\nYour Pull Request (PR) will need to be reviewed by the owner of the original repository.\n\nOne of the Nexus developers will review your pull request. They may provide feedback or request changes.\nAddress any feedback and push additional commits as needed.",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#how-to-improve-an-existing-post",
-    "href": "KB/Guides/How-to-contribute.html#how-to-improve-an-existing-post",
-    "title": "How to Contribute?",
-    "section": "How to improve an existing post?",
-    "text": "How to improve an existing post?\nWant to add a code-along exercise to an existing post, add your perspective, or correct a typo? Anyone is welcome and encouraged to suggest improvements to existing materials hosted on Nexus! The most straightforward way to do this is to click “Improve this page” from the post’s webpage on Nexus to suggest your edits. The below steps will walk you through this process.\n\nSteps to improve a post on Nexus via GitHub (no software installation needed):\n\nClick “Improve this page”: This will redirect you to the GitHub repository where the content of the post is stored.\nEdit the file directly on GitHub:\n\nOn the GitHub page, click the pencil icon (✏️) at the top right of the file to edit the content directly in your browser. No need to install any git software!\nMake your changes in the text editor. You can add a code-long exercise, share your perspective, or correct any typos.\n\nCommit your changes:\n\nAfter you have made your edits, scroll down to the “Commit changes” section.\nWrite a brief description of what you changed.\nChoose the option to “Create a new branch for this commit and start a pull request.”\n\nCreate a pull request:\n\nClick the “Propose changes” button.\nYou will be taken to a new page where you can review your changes.\nClick “Create pull request” to submit your changes for review.\n\n\nCongratulations! You have suggested an improvement to a Nexus post. The repository maintainers will review your pull request, and if everything looks good, your changes will be merged into the post.\nNote: While you can make these edits directly on GitHub without any software installation, we recommend all ML practitioners learn git! Check out our guide on intro to git.",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "KB/Guides/How-to-contribute.html#questions",
-    "href": "KB/Guides/How-to-contribute.html#questions",
-    "title": "How to Contribute?",
-    "section": "Questions?",
-    "text": "Questions?\nIf you any lingering questions on how to contribute, please feel free to post to the UW RSE Nexus Q&A on GitHub. We will improve this guide based on additional questions/comments we receive.",
-    "crumbs": [
-      "How to contribute?"
-    ]
-  },
-  {
-    "objectID": "Contributor-templates/template_kb_presentation.html",
-    "href": "Contributor-templates/template_kb_presentation.html",
-    "title": "Title/Topic of Resource",
-    "section": "",
-    "text": "Brief description of the resource, including a text embedded link in the first 1-2 sentences. Explain what the resource covers and its relevance. Mention any specific features, strengths, or weaknesses. This section should help potential users understand the value of the resource and what they can expect to learn or achieve by using it.\n\n\n\nTitle/Topic of Resource slidedeck\nTitle/Topic of Resource slidedeck (download)"
-  },
-  {
-    "objectID": "Contributor-templates/template_kb_presentation.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
-    "href": "Contributor-templates/template_kb_presentation.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
-    "title": "Title/Topic of Resource",
-    "section": "",
-    "text": "Brief description of the resource, including a text embedded link in the first 1-2 sentences. Explain what the resource covers and its relevance. Mention any specific features, strengths, or weaknesses. This section should help potential users understand the value of the resource and what they can expect to learn or achieve by using it.\n\n\n\nTitle/Topic of Resource slidedeck\nTitle/Topic of Resource slidedeck (download)"
-  },
-  {
-    "objectID": "Contributor-templates/template_kb_presentation.html#questions",
-    "href": "Contributor-templates/template_kb_presentation.html#questions",
-    "title": "Title/Topic of Resource",
-    "section": "Questions?",
-    "text": "Questions?\nIf you any lingering questions about this resource, please feel free to post to the Nexus Q&A on GitHub. We will improve materials on this website as additional questions come in."
-  },
-  {
-    "objectID": "Contributor-templates/template_kb_presentation.html#see-also",
-    "href": "Contributor-templates/template_kb_presentation.html#see-also",
-    "title": "Title/Topic of Resource",
-    "section": "See also",
-    "text": "See also\n\n\nRelated Resource 1: Brief description of related resource 1.\nRelated Resource 2: Brief description of related resource 2.\nRelated Resource 3: Brief description of related resource 3."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "UW RSE Nexus: Crowdsourced Research Software Engineer Resources",
-    "section": "",
-    "text": "The UW RSE Nexus is a curated, community-driven platform designed to capture and share the collective knowledge and experiences of the UW RSE community at the University of Wisconsin Madison.\n\nWhat is a Research Software Engineer?\nA Research Software Engineer is someone who works to improve research through the creation or maintenance of software. Although job titles vary wildly, if you write scripts, make software or keep them running in a lab, research area or study, you can proudly call yourself a Research Software Engineer.\n\n\nWhat kinds of resources are hosted on Nexus?\nAny content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.\n\n\nShare your knowledge on Nexus!\nThis site is powered by contributions from Research Software Engineers like you. If you have a project or other Research Software Engineering related resources to share, consider adding it to the UW RSE Nexus. Learn more on our How to contribute page.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nCenter for High Throughput Computing (CHTC)\n\n\n\nCompute\n\nGPU\n\nCHTC\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-06-25\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "includes/common-resources-text.html",
-    "href": "includes/common-resources-text.html",
-    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
-    "section": "",
-    "text": "Any content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology."
-  },
-  {
-    "objectID": "glossary.html",
-    "href": "glossary.html",
-    "title": "Glossary of Categories",
-    "section": "",
-    "text": "Glossary of Categories\n\n\n\n\n\n\n\n\nTerm\nMeaning\nDescription\n\n\n\n\nAgriculture\nN/A\nThe application of machine learning in agricultural practices, including crop prediction, pest detection, and yield optimization. Often involves satellite imaging and IoT data.\n\n\nBiophysics\nN/A\nThe study of biological processes through the methods of physics. Machine learning is increasingly applied in areas like protein structure prediction and molecular dynamics simulations.\n\n\nBooks\nN/A\nComprehensive resources for learning and reference. Often written by experts, these provide in-depth coverage of machine learning topics.\n\n\nCarpentries\nN/A\nHands-on, interactive learning sessions focusing on foundational coding and data skills. Facilitates skill acquisition through real-world examples and active learning.\n\n\nClassical ML\nClassical Machine Learning\nRefers to traditional ML algorithms like SVMs, decision trees, and k-means clustering. These methods are well-established, interpretable, and often less resource-intensive than deep learning.\n\n\nClustering\nN/A\nThe process of grouping a set of objects in such a way that objects in the same group (cluster) are more similar to each other than to those in other groups. Common algorithms include k-means and DBSCAN.\n\n\nCNN\nConvolutional Neural Network\nA class of deep learning models particularly well-suited for image processing tasks. Known for their ability to automatically learn spatial hierarchies of features. Common libraries include TensorFlow and Keras.\n\n\nCNN-LSTM\nConvolutional Neural Network - Long Short-Term Memory\nA hybrid model combining CNNs for feature extraction from images or sequences and LSTMs for handling time dependencies. Used in applications like video classification.\n\n\nCode-along\nN/A\nLive coding sessions where learners write code simultaneously with the instructor, which enhances learning through practice and immediate application of concepts.\n\n\nCompute\nN/A\nRefers to computational resources, often in the context of machine learning, such as CPUs, GPUs, and cloud computing. Critical for training models, especially deep learning models.\n\n\nComputer vision\nN/A\nA field of machine learning focused on enabling computers to interpret and make decisions based on visual data. Applications include image recognition, object detection, and facial recognition. Libraries include OpenCV, PyTorch, and TensorFlow.\n\n\nContribute\nN/A\nInvolves contributing to open-source projects, fostering collaboration, improving software quality, and providing community support.\n\n\nCSI\nCover Song Identification\nA task in music information retrieval that involves identifying whether one song is a cover version of another. Machine learning models for CSI often analyze harmonic, melodic, and rhythmic similarities across versions. Popular approaches include feature-based methods and deep learning models.\n\n\nCross Labs AI\nN/A\nRefers to interdisciplinary AI research and development across various labs or research groups, often involving collaboration between different fields such as computer science, biology, and engineering.\n\n\nDeep learning\nN/A\nA subset of machine learning involving neural networks with many layers, used for complex tasks like image recognition and natural language processing. Commonly used libraries include TensorFlow, PyTorch, and Keras.\n\n\nDrug synergy\nN/A\nThe study and identification of drug combinations that produce a greater effect together than individually. Machine learning is used to predict synergistic drug pairs.\n\n\nEmpirical patterns\nN/A\nObserved patterns in data identified through experimentation and analysis. These patterns help inform the development of models and algorithms.\n\n\nForums\nN/A\nOnline platforms where members of the machine learning community can ask questions, share knowledge, and collaborate on projects. Examples include Reddit, Stack Overflow, and specialized forums like Kaggle.\n\n\nFoundation models\nN/A\nLarge-scale pre-trained models that serve as a base for fine-tuning on specific tasks. They underpin many state-of-the-art NLP and computer vision systems. Examples include GPT-3, BERT, and CLIP.\n\n\nGenomics\nN/A\nThe study of genomes, often involving the analysis of DNA sequences. Machine learning aids in tasks like gene prediction, mutation analysis, and personalized medicine. Libraries include Scikit-learn, TensorFlow, and PyTorch.\n\n\nGit/GitHub\nN/A\nVersion control system (Git) and the associated platform (GitHub) for hosting and sharing code. Essential tools for collaboration and project management in software development, including ML projects.\n\n\nGrokking\nN/A\nA phenomenon in machine learning where a model unexpectedly generalizes well after many training iterations, often after initially performing poorly. Highlights the non-linear relationship between training time and model performance.\n\n\nGuides\nN/A\nDetailed instructions or explanations, often in the form of tutorials or documentation, aimed at helping users understand and apply specific concepts or tools.\n\n\nGPU\nGraphics Processing Unit\nA specialized processor that accelerates the creation of images in a frame buffer intended for output to a display. Widely used in deep learning for parallel processing capabilities.\n\n\nHealthcare\nN/A\nThe application of machine learning in the healthcare industry, including areas like medical imaging, diagnostics, and personalized treatment plans. Common challenges include data privacy and interpretability.\n\n\nHugging Face\nN/A\nA popular platform for sharing pre-trained models, datasets, and other machine learning resources, especially in NLP. Provides tools like the Transformers library for easy model deployment.\n\n\nIndustry applications\nN/A\nRefers to the use of machine learning across various industries such as finance, manufacturing, and logistics, for tasks like predictive maintenance, fraud detection, and supply chain optimization.\n\n\nKeras\nN/A\nA high-level neural networks API written in Python, capable of running on top of TensorFlow, Theano, or CNTK. It allows for easy and fast prototyping of deep learning models.\n\n\nKnowledge-based\nN/A\nRefers to models or systems that incorporate domain-specific knowledge, often encoded in rules or ontologies, to improve decision-making or interpretability. Examples include expert systems and knowledge graphs.\n\n\nLLaVA\nLarge Language and Vision Assistant\nA multimodal AI model that combines language and vision understanding, capable of processing and generating both text and images.\n\n\nLLM\nLarge Language Model\nA type of deep learning model that can process and generate human-like text by understanding context from vast amounts of data. Examples include GPT-3 and BERT.\n\n\nLMM\nLarge Multimodal Model\nA class of models that can process and generate content across different modalities such as text, image, and audio. Examples include CLIP and DALL-E.\n\n\nMedical imaging\nN/A\nThe application of machine learning techniques to analyze and interpret medical images. Common tasks include segmentation, classification, and anomaly detection. Libraries include MONAI, PyTorch, and TensorFlow.\n\n\nModel exploration\nN/A\nLibraries that facilitate trying out different model architectures and pretrained models.\n\n\nNLP\nNatural Language Processing\nA field of machine learning focused on the interaction between computers and humans using natural language. Common libraries include NLTK, SpaCy, and Hugging Face Transformers.\n\n\nOOD detection\nOut-of-Distribution Detection\nTechniques for identifying data points that do not belong to the distribution on which a model was trained. Important for building robust and trustworthy models. Common methods include Mahalanobis distance and energy-based models.\n\n\nPyTorch\nN/A\nAn open-source machine learning library based on the Torch library, primarily used for applications such as computer vision and natural language processing. Developed by Facebook’s AI Research lab.\n\n\nPython\nN/A\nA high-level programming language that has become the de facto standard for machine learning and data science due to its readability and vast ecosystem of libraries (e.g., NumPy, Pandas, Scikit-learn, TensorFlow).\n\n\nReproducibility\nN/A\nEnsuring that ML experiments and results can be consistently replicated by others, a key principle in scientific research. Often involves detailed documentation, version control, and the use of containers.\n\n\nSklearn\nScikit-learn\nA machine learning library for Python that provides simple and efficient tools for data mining and data analysis, built on NumPy, SciPy, and Matplotlib.\n\n\nText analysis\nN/A\nThe process of deriving information from text data, often involving techniques from NLP. Used in sentiment analysis, topic modeling, and more. Common libraries include NLTK, SpaCy, and Gensim.\n\n\nTrustworthy ML\nN/A\nApproaches and practices in machine learning that ensure models are reliable, fair, and transparent, especially in critical applications like healthcare or finance.\n\n\nUdacity\nN/A\nAn online learning platform offering courses, including nanodegree programs, on a variety of topics including machine learning and data science. Often includes projects and code-alongs.\n\n\nViT\nVision Transformer\nViT is based on the transformer architecture, originally designed for NLP tasks but adapted for vision tasks. Images are split into patches (usually 16x16), which are flattened and treated as input tokens. These patches are then processed similarly to how words are processed in NLP transformers like BERT.\n\n\n\nVLM | Visual-Language Model | A type of machine learning model that understands and generates content based on both visual and textual inputs, often used in tasks like image captioning and visual question answering. Examples include CLIP and LLaVA. |"
-  },
-  {
-    "objectID": "Projects/index.html",
-    "href": "Projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Explore projects created, managed, or loved by UW RSE community members. If you have a project to share or are looking for contributions, please feel free to contribute a “Projects” page.\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "includes/genAI-disclaimer.html",
-    "href": "includes/genAI-disclaimer.html",
-    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
-    "section": "",
-    "text": "UW–Madison faculty, staff, students, and affiliates are required to follow campus policies relevant to AI use. Uses of generative AI that are explicitly prohibited by policy include, but are not limited to, the following:\n\nEntering any sensitive, restricted or otherwise protected institutional data – including hard-coded passwords – into any generative AI tool or service;\nUsing AI-generated code for institutional IT systems or services without review by a human to verify the absence of malicious elements;\nUsing generative AI to violate laws; institutional policies, rules or guidelines; or agreements or contracts."
-  },
-  {
-    "objectID": "includes/netID-disclaimer.html",
-    "href": "includes/netID-disclaimer.html",
-    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
-    "section": "",
-    "text": "Note: A netID is required to view the ML4MI and the Exploring AI @ UW video series."
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html",
-    "href": "Contributor-templates/template_project.html",
-    "title": "Project Name",
-    "section": "",
-    "text": "Project Name is a [brief description of the library: its purpose and key features]. Developed by [Author(s)/Organization] and introduced in [Year], Project Name offers tools for [specific task(s), e.g., image transformations, data augmentation, visualization]. Its design allows users to [mention ease of use, efficiency, flexibility], making it ideal for [target audience or task, e.g., deep learning practitioners, data engineers, etc.].\n\n\n\n\nFeature 1: Describe a core feature,\nFeature 2: Another key feature of the project"
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#about-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
-    "href": "Contributor-templates/template_project.html#about-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
-    "title": "Project Name",
-    "section": "",
-    "text": "Project Name is a [brief description of the library: its purpose and key features]. Developed by [Author(s)/Organization] and introduced in [Year], Project Name offers tools for [specific task(s), e.g., image transformations, data augmentation, visualization]. Its design allows users to [mention ease of use, efficiency, flexibility], making it ideal for [target audience or task, e.g., deep learning practitioners, data engineers, etc.].\n\n\n\n\nFeature 1: Describe a core feature,\nFeature 2: Another key feature of the project"
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#integration-and-compatibility",
-    "href": "Contributor-templates/template_project.html#integration-and-compatibility",
-    "title": "Project Name",
-    "section": "Integration and compatibility",
-    "text": "Integration and compatibility\nProject Name integrates with various machine learning frameworks and libraries, making it versatile for a range of tasks.\n\nFrameworks Supported: List supported frameworks, e.g., PyTorch, TensorFlow, scikit-learn\nCompatible Libraries: Mention compatible libraries, e.g., OpenCV, Hugging Face Transformers\nInstallation Instructions: Provide installation commands, e.g., pip install library-name, conda install library-name"
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#use-cases",
-    "href": "Contributor-templates/template_project.html#use-cases",
-    "title": "Project Name",
-    "section": "Use cases",
-    "text": "Use cases\nHere are some examples of how Project Name can be applied.\n\nUse Case 1: Description of a specific use case,\nUse Case 2: Another relevant application,\nUse Case 3: Optional: Add more use cases if applicable"
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#tutorials-and-resources",
-    "href": "Contributor-templates/template_project.html#tutorials-and-resources",
-    "title": "Project Name",
-    "section": "Tutorials and resources",
-    "text": "Tutorials and resources\n\nGetting started\n\nOfficial Tutorial: Link to a beginner-friendly tutorial or notebook\nExample Colab/Notebook: Link to an example Colab notebook or GitHub repository showcasing the library in action\n\n\n\nHigh-level tips for effective use\n\nOptimization: Describe ways to optimize performance,\nMemory Management: Tips on handling memory usage, especially for large datasets\nCommon Pitfalls: Mention common mistakes and how to avoid them\n\n\n\nRelated libraries & tools\n\nRelated Library 1: Mention a related library and what it adds/compares to the current library\nTool/Plugin 1: Mention tools/plugins that complement this library"
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#contribute",
-    "href": "Contributor-templates/template_project.html#contribute",
-    "title": "Project Name",
-    "section": "Contribute",
-    "text": "Contribute\n\nRepository\n\nContribute to the source code: Link to [Github/GitLab/etc.] repository.\n\n\n\n\nResources\nPlease feel free to write a guide that would be helpful for new or advanced users of Project Name.\n\nCreate a Guide: Create a guide for Project Name on the UW RSE Nexus."
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#questions",
-    "href": "Contributor-templates/template_project.html#questions",
-    "title": "Project Name",
-    "section": "Questions?",
-    "text": "Questions?\nIf you have any lingering questions about this resource, feel free to post them on the UW RSE Nexus Q&A on GitHub."
-  },
-  {
-    "objectID": "Contributor-templates/template_project.html#see-also",
-    "href": "Contributor-templates/template_project.html#see-also",
-    "title": "Project Name",
-    "section": "See also",
-    "text": "See also\n\n\nRelated Resource 1: Brief description of related resource 1.\nRelated Resource 2: Brief description of related resource 2.\nRelated Resource 3: Brief description of related resource 3"
-  },
-  {
-    "objectID": "KB/Guides/Intro-git-github.html",
-    "href": "KB/Guides/Intro-git-github.html",
-    "title": "Version Control with Git and GitHub (Carpentries)",
-    "section": "",
-    "text": "The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with Git/GitHub. Git is a free and open source version control system that has become the #1 choice for software developers both in research and industry. Unlike centralized version control systems where there is a single central repository, Git allows every user to have a full copy of the entire project history on their own machine. This distributed nature enables multiple people to work on a project simultaneously without interfering with each other’s work. Git stores the history of changes in a project, enabling users to track progress, revert to previous states, and manage branches for different features or versions of a project. GitHub is a web-based platform that uses Git for version control. It provides a collaborative environment where users can host and review code, manage projects, and build software alongside millions of other developers. GitHub also offers additional features such as issue tracking, project management tools, and continuous integration workflows.\n\n\n\nIn this lesson we use Git from the Unix Shell. Some previous experience with the shell is expected, but isn’t mandatory. For help with Unix Shell, check out the Intro to Unix Shell workshop (Carpentries).\n\n\n\n\n\nThis workshop takes rough 3-4 hours to complete.\n\n\n\n\nThe Carpentries is a global organization of researchers who volunteer their time and effort to create workshops that teach software engineering and data analysis skills to other researchers. UW-Madison has its own local Carpentries community which is actively engaged in developing new Research Software Engineering workshops. To be notified of upcoming workshops offered by the Carpentries, make sure to subscribe to the Data Science @ UW Newsletter."
-  },
-  {
-    "objectID": "KB/Guides/Intro-git-github.html#about-this-resource",
-    "href": "KB/Guides/Intro-git-github.html#about-this-resource",
-    "title": "Version Control with Git and GitHub (Carpentries)",
-    "section": "",
-    "text": "The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with Git/GitHub. Git is a free and open source version control system that has become the #1 choice for software developers both in research and industry. Unlike centralized version control systems where there is a single central repository, Git allows every user to have a full copy of the entire project history on their own machine. This distributed nature enables multiple people to work on a project simultaneously without interfering with each other’s work. Git stores the history of changes in a project, enabling users to track progress, revert to previous states, and manage branches for different features or versions of a project. GitHub is a web-based platform that uses Git for version control. It provides a collaborative environment where users can host and review code, manage projects, and build software alongside millions of other developers. GitHub also offers additional features such as issue tracking, project management tools, and continuous integration workflows.\n\n\n\nIn this lesson we use Git from the Unix Shell. Some previous experience with the shell is expected, but isn’t mandatory. For help with Unix Shell, check out the Intro to Unix Shell workshop (Carpentries).\n\n\n\n\n\nThis workshop takes rough 3-4 hours to complete.\n\n\n\n\nThe Carpentries is a global organization of researchers who volunteer their time and effort to create workshops that teach software engineering and data analysis skills to other researchers. UW-Madison has its own local Carpentries community which is actively engaged in developing new Research Software Engineering workshops. To be notified of upcoming workshops offered by the Carpentries, make sure to subscribe to the Data Science @ UW Newsletter."
-  },
-  {
-    "objectID": "KB/Guides/Intro-git-github.html#questions",
-    "href": "KB/Guides/Intro-git-github.html#questions",
-    "title": "Version Control with Git and GitHub (Carpentries)",
-    "section": "Questions?",
-    "text": "Questions?\nIf you any lingering questions about this resource, please feel free to post to the Nexus Q&A on GitHub. We will improve materials on this website as additional questions come in."
-  },
-  {
-    "objectID": "KB/Guides/Intro-git-github.html#see-also",
-    "href": "KB/Guides/Intro-git-github.html#see-also",
-    "title": "Version Control with Git and GitHub (Carpentries)",
-    "section": "See also",
-    "text": "See also\n\nGuide: Version Control with GitHub Desktop: GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub. It is designed for users who prefer not to use the command line interface, offering a more intuitive and visual approach to version control. With GitHub Desktop, you can easily perform common Git tasks such as committing changes, creating branches, and resolving merge conflicts, all within a user-friendly interface."
   },
   {
     "objectID": "KB/Guides/Github-desktop.html",
@@ -349,15 +119,273 @@
     "text": "See also\n\nWorkshop: Intro to Version Control with Git: If you’re curious to learn how to use Git via shell commands (or just want to become more fluent with Git), check out this YouTube playlist from the Data Science Hub!"
   },
   {
-    "objectID": "KB/Presentations/index.html",
-    "href": "KB/Presentations/index.html",
-    "title": "Presentations",
+    "objectID": "KB/Guides/Intro-git-github.html",
+    "href": "KB/Guides/Intro-git-github.html",
+    "title": "Version Control with Git and GitHub (Carpentries)",
     "section": "",
-    "text": "Explore past presentations given at UW RSE events. If you have an upcomming presentation or have already given one, feel free to contribute.\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with Git/GitHub. Git is a free and open source version control system that has become the #1 choice for software developers both in research and industry. Unlike centralized version control systems where there is a single central repository, Git allows every user to have a full copy of the entire project history on their own machine. This distributed nature enables multiple people to work on a project simultaneously without interfering with each other’s work. Git stores the history of changes in a project, enabling users to track progress, revert to previous states, and manage branches for different features or versions of a project. GitHub is a web-based platform that uses Git for version control. It provides a collaborative environment where users can host and review code, manage projects, and build software alongside millions of other developers. GitHub also offers additional features such as issue tracking, project management tools, and continuous integration workflows.\n\n\n\nIn this lesson we use Git from the Unix Shell. Some previous experience with the shell is expected, but isn’t mandatory. For help with Unix Shell, check out the Intro to Unix Shell workshop (Carpentries).\n\n\n\n\n\nThis workshop takes rough 3-4 hours to complete.\n\n\n\n\nThe Carpentries is a global organization of researchers who volunteer their time and effort to create workshops that teach software engineering and data analysis skills to other researchers. UW-Madison has its own local Carpentries community which is actively engaged in developing new Research Software Engineering workshops. To be notified of upcoming workshops offered by the Carpentries, make sure to subscribe to the Data Science @ UW Newsletter."
+  },
+  {
+    "objectID": "KB/Guides/Intro-git-github.html#about-this-resource",
+    "href": "KB/Guides/Intro-git-github.html#about-this-resource",
+    "title": "Version Control with Git and GitHub (Carpentries)",
+    "section": "",
+    "text": "The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with Git/GitHub. Git is a free and open source version control system that has become the #1 choice for software developers both in research and industry. Unlike centralized version control systems where there is a single central repository, Git allows every user to have a full copy of the entire project history on their own machine. This distributed nature enables multiple people to work on a project simultaneously without interfering with each other’s work. Git stores the history of changes in a project, enabling users to track progress, revert to previous states, and manage branches for different features or versions of a project. GitHub is a web-based platform that uses Git for version control. It provides a collaborative environment where users can host and review code, manage projects, and build software alongside millions of other developers. GitHub also offers additional features such as issue tracking, project management tools, and continuous integration workflows.\n\n\n\nIn this lesson we use Git from the Unix Shell. Some previous experience with the shell is expected, but isn’t mandatory. For help with Unix Shell, check out the Intro to Unix Shell workshop (Carpentries).\n\n\n\n\n\nThis workshop takes rough 3-4 hours to complete.\n\n\n\n\nThe Carpentries is a global organization of researchers who volunteer their time and effort to create workshops that teach software engineering and data analysis skills to other researchers. UW-Madison has its own local Carpentries community which is actively engaged in developing new Research Software Engineering workshops. To be notified of upcoming workshops offered by the Carpentries, make sure to subscribe to the Data Science @ UW Newsletter."
+  },
+  {
+    "objectID": "KB/Guides/Intro-git-github.html#questions",
+    "href": "KB/Guides/Intro-git-github.html#questions",
+    "title": "Version Control with Git and GitHub (Carpentries)",
+    "section": "Questions?",
+    "text": "Questions?\nIf you any lingering questions about this resource, please feel free to post to the Nexus Q&A on GitHub. We will improve materials on this website as additional questions come in."
+  },
+  {
+    "objectID": "KB/Guides/Intro-git-github.html#see-also",
+    "href": "KB/Guides/Intro-git-github.html#see-also",
+    "title": "Version Control with Git and GitHub (Carpentries)",
+    "section": "See also",
+    "text": "See also\n\nGuide: Version Control with GitHub Desktop: GitHub Desktop is a graphical user interface (GUI) application that simplifies the use of Git and GitHub. It is designed for users who prefer not to use the command line interface, offering a more intuitive and visual approach to version control. With GitHub Desktop, you can easily perform common Git tasks such as committing changes, creating branches, and resolving merge conflicts, all within a user-friendly interface."
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html",
+    "href": "Contributor-templates/template_project.html",
+    "title": "Project Name",
+    "section": "",
+    "text": "Project Name is a [brief description of the library: its purpose and key features]. Developed by [Author(s)/Organization] and introduced in [Year], Project Name offers tools for [specific task(s), e.g., image transformations, data augmentation, visualization]. Its design allows users to [mention ease of use, efficiency, flexibility], making it ideal for [target audience or task, e.g., deep learning practitioners, data engineers, etc.].\n\n\n\n\nFeature 1: Describe a core feature,\nFeature 2: Another key feature of the project"
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#about-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "href": "Contributor-templates/template_project.html#about-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "title": "Project Name",
+    "section": "",
+    "text": "Project Name is a [brief description of the library: its purpose and key features]. Developed by [Author(s)/Organization] and introduced in [Year], Project Name offers tools for [specific task(s), e.g., image transformations, data augmentation, visualization]. Its design allows users to [mention ease of use, efficiency, flexibility], making it ideal for [target audience or task, e.g., deep learning practitioners, data engineers, etc.].\n\n\n\n\nFeature 1: Describe a core feature,\nFeature 2: Another key feature of the project"
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#integration-and-compatibility",
+    "href": "Contributor-templates/template_project.html#integration-and-compatibility",
+    "title": "Project Name",
+    "section": "Integration and compatibility",
+    "text": "Integration and compatibility\nProject Name integrates with various machine learning frameworks and libraries, making it versatile for a range of tasks.\n\nFrameworks Supported: List supported frameworks, e.g., PyTorch, TensorFlow, scikit-learn\nCompatible Libraries: Mention compatible libraries, e.g., OpenCV, Hugging Face Transformers\nInstallation Instructions: Provide installation commands, e.g., pip install library-name, conda install library-name"
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#use-cases",
+    "href": "Contributor-templates/template_project.html#use-cases",
+    "title": "Project Name",
+    "section": "Use cases",
+    "text": "Use cases\nHere are some examples of how Project Name can be applied.\n\nUse Case 1: Description of a specific use case,\nUse Case 2: Another relevant application,\nUse Case 3: Optional: Add more use cases if applicable"
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#tutorials-and-resources",
+    "href": "Contributor-templates/template_project.html#tutorials-and-resources",
+    "title": "Project Name",
+    "section": "Tutorials and resources",
+    "text": "Tutorials and resources\n\nGetting started\n\nOfficial Tutorial: Link to a beginner-friendly tutorial or notebook\nExample Colab/Notebook: Link to an example Colab notebook or GitHub repository showcasing the library in action\n\n\n\nHigh-level tips for effective use\n\nOptimization: Describe ways to optimize performance,\nMemory Management: Tips on handling memory usage, especially for large datasets\nCommon Pitfalls: Mention common mistakes and how to avoid them\n\n\n\nRelated libraries & tools\n\nRelated Library 1: Mention a related library and what it adds/compares to the current library\nTool/Plugin 1: Mention tools/plugins that complement this library"
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#contribute",
+    "href": "Contributor-templates/template_project.html#contribute",
+    "title": "Project Name",
+    "section": "Contribute",
+    "text": "Contribute\n\nRepository\n\nContribute to the source code: Link to [Github/GitLab/etc.] repository.\n\n\n\n\nResources\nPlease feel free to write a guide that would be helpful for new or advanced users of Project Name.\n\nCreate a Guide: Create a guide for Project Name on the UW RSE Nexus."
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#questions",
+    "href": "Contributor-templates/template_project.html#questions",
+    "title": "Project Name",
+    "section": "Questions?",
+    "text": "Questions?\nIf you have any lingering questions about this resource, feel free to post them on the UW RSE Nexus Q&A on GitHub."
+  },
+  {
+    "objectID": "Contributor-templates/template_project.html#see-also",
+    "href": "Contributor-templates/template_project.html#see-also",
+    "title": "Project Name",
+    "section": "See also",
+    "text": "See also\n\n\nRelated Resource 1: Brief description of related resource 1.\nRelated Resource 2: Brief description of related resource 2.\nRelated Resource 3: Brief description of related resource 3"
+  },
+  {
+    "objectID": "includes/netID-disclaimer.html",
+    "href": "includes/netID-disclaimer.html",
+    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
+    "section": "",
+    "text": "Note: A netID is required to view the ML4MI and the Exploring AI @ UW video series."
+  },
+  {
+    "objectID": "includes/genAI-disclaimer.html",
+    "href": "includes/genAI-disclaimer.html",
+    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
+    "section": "",
+    "text": "UW–Madison faculty, staff, students, and affiliates are required to follow campus policies relevant to AI use. Uses of generative AI that are explicitly prohibited by policy include, but are not limited to, the following:\n\nEntering any sensitive, restricted or otherwise protected institutional data – including hard-coded passwords – into any generative AI tool or service;\nUsing AI-generated code for institutional IT systems or services without review by a human to verify the absence of malicious elements;\nUsing generative AI to violate laws; institutional policies, rules or guidelines; or agreements or contracts."
+  },
+  {
+    "objectID": "Projects/index.html",
+    "href": "Projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Explore projects created, managed, or loved by UW RSE community members. If you have a project to share or are looking for contributions, please feel free to contribute a “Projects” page.\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary of Categories",
+    "section": "",
+    "text": "Glossary of Categories\n\n\n\n\n\n\n\n\nTerm\nMeaning\nDescription\n\n\n\n\nAgriculture\nN/A\nThe application of machine learning in agricultural practices, including crop prediction, pest detection, and yield optimization. Often involves satellite imaging and IoT data.\n\n\nBiophysics\nN/A\nThe study of biological processes through the methods of physics. Machine learning is increasingly applied in areas like protein structure prediction and molecular dynamics simulations.\n\n\nBooks\nN/A\nComprehensive resources for learning and reference. Often written by experts, these provide in-depth coverage of machine learning topics.\n\n\nCarpentries\nN/A\nHands-on, interactive learning sessions focusing on foundational coding and data skills. Facilitates skill acquisition through real-world examples and active learning.\n\n\nClassical ML\nClassical Machine Learning\nRefers to traditional ML algorithms like SVMs, decision trees, and k-means clustering. These methods are well-established, interpretable, and often less resource-intensive than deep learning.\n\n\nClustering\nN/A\nThe process of grouping a set of objects in such a way that objects in the same group (cluster) are more similar to each other than to those in other groups. Common algorithms include k-means and DBSCAN.\n\n\nCNN\nConvolutional Neural Network\nA class of deep learning models particularly well-suited for image processing tasks. Known for their ability to automatically learn spatial hierarchies of features. Common libraries include TensorFlow and Keras.\n\n\nCNN-LSTM\nConvolutional Neural Network - Long Short-Term Memory\nA hybrid model combining CNNs for feature extraction from images or sequences and LSTMs for handling time dependencies. Used in applications like video classification.\n\n\nCode-along\nN/A\nLive coding sessions where learners write code simultaneously with the instructor, which enhances learning through practice and immediate application of concepts.\n\n\nCompute\nN/A\nRefers to computational resources, often in the context of machine learning, such as CPUs, GPUs, and cloud computing. Critical for training models, especially deep learning models.\n\n\nComputer vision\nN/A\nA field of machine learning focused on enabling computers to interpret and make decisions based on visual data. Applications include image recognition, object detection, and facial recognition. Libraries include OpenCV, PyTorch, and TensorFlow.\n\n\nContribute\nN/A\nInvolves contributing to open-source projects, fostering collaboration, improving software quality, and providing community support.\n\n\nCSI\nCover Song Identification\nA task in music information retrieval that involves identifying whether one song is a cover version of another. Machine learning models for CSI often analyze harmonic, melodic, and rhythmic similarities across versions. Popular approaches include feature-based methods and deep learning models.\n\n\nCross Labs AI\nN/A\nRefers to interdisciplinary AI research and development across various labs or research groups, often involving collaboration between different fields such as computer science, biology, and engineering.\n\n\nDeep learning\nN/A\nA subset of machine learning involving neural networks with many layers, used for complex tasks like image recognition and natural language processing. Commonly used libraries include TensorFlow, PyTorch, and Keras.\n\n\nDrug synergy\nN/A\nThe study and identification of drug combinations that produce a greater effect together than individually. Machine learning is used to predict synergistic drug pairs.\n\n\nEmpirical patterns\nN/A\nObserved patterns in data identified through experimentation and analysis. These patterns help inform the development of models and algorithms.\n\n\nForums\nN/A\nOnline platforms where members of the machine learning community can ask questions, share knowledge, and collaborate on projects. Examples include Reddit, Stack Overflow, and specialized forums like Kaggle.\n\n\nFoundation models\nN/A\nLarge-scale pre-trained models that serve as a base for fine-tuning on specific tasks. They underpin many state-of-the-art NLP and computer vision systems. Examples include GPT-3, BERT, and CLIP.\n\n\nGenomics\nN/A\nThe study of genomes, often involving the analysis of DNA sequences. Machine learning aids in tasks like gene prediction, mutation analysis, and personalized medicine. Libraries include Scikit-learn, TensorFlow, and PyTorch.\n\n\nGit/GitHub\nN/A\nVersion control system (Git) and the associated platform (GitHub) for hosting and sharing code. Essential tools for collaboration and project management in software development, including ML projects.\n\n\nGrokking\nN/A\nA phenomenon in machine learning where a model unexpectedly generalizes well after many training iterations, often after initially performing poorly. Highlights the non-linear relationship between training time and model performance.\n\n\nGuides\nN/A\nDetailed instructions or explanations, often in the form of tutorials or documentation, aimed at helping users understand and apply specific concepts or tools.\n\n\nGPU\nGraphics Processing Unit\nA specialized processor that accelerates the creation of images in a frame buffer intended for output to a display. Widely used in deep learning for parallel processing capabilities.\n\n\nHealthcare\nN/A\nThe application of machine learning in the healthcare industry, including areas like medical imaging, diagnostics, and personalized treatment plans. Common challenges include data privacy and interpretability.\n\n\nHugging Face\nN/A\nA popular platform for sharing pre-trained models, datasets, and other machine learning resources, especially in NLP. Provides tools like the Transformers library for easy model deployment.\n\n\nIndustry applications\nN/A\nRefers to the use of machine learning across various industries such as finance, manufacturing, and logistics, for tasks like predictive maintenance, fraud detection, and supply chain optimization.\n\n\nKeras\nN/A\nA high-level neural networks API written in Python, capable of running on top of TensorFlow, Theano, or CNTK. It allows for easy and fast prototyping of deep learning models.\n\n\nKnowledge-based\nN/A\nRefers to models or systems that incorporate domain-specific knowledge, often encoded in rules or ontologies, to improve decision-making or interpretability. Examples include expert systems and knowledge graphs.\n\n\nLLaVA\nLarge Language and Vision Assistant\nA multimodal AI model that combines language and vision understanding, capable of processing and generating both text and images.\n\n\nLLM\nLarge Language Model\nA type of deep learning model that can process and generate human-like text by understanding context from vast amounts of data. Examples include GPT-3 and BERT.\n\n\nLMM\nLarge Multimodal Model\nA class of models that can process and generate content across different modalities such as text, image, and audio. Examples include CLIP and DALL-E.\n\n\nMedical imaging\nN/A\nThe application of machine learning techniques to analyze and interpret medical images. Common tasks include segmentation, classification, and anomaly detection. Libraries include MONAI, PyTorch, and TensorFlow.\n\n\nModel exploration\nN/A\nLibraries that facilitate trying out different model architectures and pretrained models.\n\n\nNLP\nNatural Language Processing\nA field of machine learning focused on the interaction between computers and humans using natural language. Common libraries include NLTK, SpaCy, and Hugging Face Transformers.\n\n\nOOD detection\nOut-of-Distribution Detection\nTechniques for identifying data points that do not belong to the distribution on which a model was trained. Important for building robust and trustworthy models. Common methods include Mahalanobis distance and energy-based models.\n\n\nPyTorch\nN/A\nAn open-source machine learning library based on the Torch library, primarily used for applications such as computer vision and natural language processing. Developed by Facebook’s AI Research lab.\n\n\nPython\nN/A\nA high-level programming language that has become the de facto standard for machine learning and data science due to its readability and vast ecosystem of libraries (e.g., NumPy, Pandas, Scikit-learn, TensorFlow).\n\n\nReproducibility\nN/A\nEnsuring that ML experiments and results can be consistently replicated by others, a key principle in scientific research. Often involves detailed documentation, version control, and the use of containers.\n\n\nSklearn\nScikit-learn\nA machine learning library for Python that provides simple and efficient tools for data mining and data analysis, built on NumPy, SciPy, and Matplotlib.\n\n\nText analysis\nN/A\nThe process of deriving information from text data, often involving techniques from NLP. Used in sentiment analysis, topic modeling, and more. Common libraries include NLTK, SpaCy, and Gensim.\n\n\nTrustworthy ML\nN/A\nApproaches and practices in machine learning that ensure models are reliable, fair, and transparent, especially in critical applications like healthcare or finance.\n\n\nUdacity\nN/A\nAn online learning platform offering courses, including nanodegree programs, on a variety of topics including machine learning and data science. Often includes projects and code-alongs.\n\n\nViT\nVision Transformer\nViT is based on the transformer architecture, originally designed for NLP tasks but adapted for vision tasks. Images are split into patches (usually 16x16), which are flattened and treated as input tokens. These patches are then processed similarly to how words are processed in NLP transformers like BERT.\n\n\n\nVLM | Visual-Language Model | A type of machine learning model that understands and generates content based on both visual and textual inputs, often used in tasks like image captioning and visual question answering. Examples include CLIP and LLaVA. |"
+  },
+  {
+    "objectID": "includes/common-resources-text.html",
+    "href": "includes/common-resources-text.html",
+    "title": "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub",
+    "section": "",
+    "text": "Any content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "UW RSE Nexus: Crowdsourced Research Software Engineer Resources",
+    "section": "",
+    "text": "The UW RSE Nexus is a curated, community-driven platform designed to capture and share the collective knowledge and experiences of the UW RSE community at the University of Wisconsin Madison.\n\nWhat is a Research Software Engineer?\nA Research Software Engineer is someone who works to improve research through the creation or maintenance of software. Although job titles vary wildly, if you write scripts, make software or keep them running in a lab, research area or study, you can proudly call yourself a Research Software Engineer.\n\n\nWhat kinds of resources are hosted on Nexus?\nAny content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.\n\n\nShare your knowledge on Nexus!\nThis site is powered by contributions from Research Software Engineers like you. If you have a project or other Research Software Engineering related resources to share, consider adding it to the UW RSE Nexus. Learn more on our How to contribute page.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing the UW RSE Nexus\n\n\n\nCollaboration\n\nOpen-Source\n\nPython\n\nQuarto\n\nPresentation\n\n\n\n\n\n\n\nRyan Bemowski\n\n\n2026-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nCenter for High Throughput Computing (CHTC)\n\n\n\nCompute\n\nGPU\n\nCHTC\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-06-25\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Contributor-templates/template_kb_presentation.html",
+    "href": "Contributor-templates/template_kb_presentation.html",
+    "title": "Title/Topic of Resource",
+    "section": "",
+    "text": "Brief description of the resource, including a text embedded link in the first 1-2 sentences. Explain what the resource covers and its relevance. Mention any specific features, strengths, or weaknesses. This section should help potential users understand the value of the resource and what they can expect to learn or achieve by using it.\n\n\n\nTitle/Topic of Resource slidedeck\nTitle/Topic of Resource slidedeck (download)"
+  },
+  {
+    "objectID": "Contributor-templates/template_kb_presentation.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "href": "Contributor-templates/template_kb_presentation.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "title": "Title/Topic of Resource",
+    "section": "",
+    "text": "Brief description of the resource, including a text embedded link in the first 1-2 sentences. Explain what the resource covers and its relevance. Mention any specific features, strengths, or weaknesses. This section should help potential users understand the value of the resource and what they can expect to learn or achieve by using it.\n\n\n\nTitle/Topic of Resource slidedeck\nTitle/Topic of Resource slidedeck (download)"
+  },
+  {
+    "objectID": "Contributor-templates/template_kb_presentation.html#questions",
+    "href": "Contributor-templates/template_kb_presentation.html#questions",
+    "title": "Title/Topic of Resource",
+    "section": "Questions?",
+    "text": "Questions?\nIf you any lingering questions about this resource, please feel free to post to the Nexus Q&A on GitHub. We will improve materials on this website as additional questions come in."
+  },
+  {
+    "objectID": "Contributor-templates/template_kb_presentation.html#see-also",
+    "href": "Contributor-templates/template_kb_presentation.html#see-also",
+    "title": "Title/Topic of Resource",
+    "section": "See also",
+    "text": "See also\n\n\nRelated Resource 1: Brief description of related resource 1.\nRelated Resource 2: Brief description of related resource 2.\nRelated Resource 3: Brief description of related resource 3."
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html",
+    "href": "KB/Guides/How-to-contribute.html",
+    "title": "How to Contribute?",
+    "section": "",
+    "text": "We want Nexus to serve also as a place where members of the community can share their knowledge. This guide answers the question, how to contribute to Nexus?",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#what-kinds-of-resources-are-hosted-on-nexus",
+    "href": "KB/Guides/How-to-contribute.html#what-kinds-of-resources-are-hosted-on-nexus",
+    "title": "How to Contribute?",
+    "section": "What kinds of resources are hosted on Nexus?",
+    "text": "What kinds of resources are hosted on Nexus?\nAny content (original or external) that can help Research Software Engineers in their learning journey. There are two main areas:\nKnowledge Base: Previous UW RSE community presentations, resources, and guides.\nProjects: Projects created, managed, and loved by UW RSE community members.\nDisclaimer: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#need-inspiration-for-a-good-topic-to-post-about",
+    "href": "KB/Guides/How-to-contribute.html#need-inspiration-for-a-good-topic-to-post-about",
+    "title": "How to Contribute?",
+    "section": "Need inspiration for a good topic to post about?",
+    "text": "Need inspiration for a good topic to post about?\nAn ever-expanding list of requested resources can be found on the Issues page (on GitHub). Search for open issues that have the “Resource” label to check out some of our top priorities. If you’d like to tackle a given issue, please comment on the issue to let others know.",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#what-makes-a-good-post",
+    "href": "KB/Guides/How-to-contribute.html#what-makes-a-good-post",
+    "title": "How to Contribute?",
+    "section": "What makes a good post?",
+    "text": "What makes a good post?\nCreating a useful and engaging post for the UW RSE Nexus involves a few key elements to ensure it is beneficial for the community. Here are some general guidelines to follow:\n\nClear and concise title\nThe title should accurately reflect the content and main focus of the post. It should be engaging and specific, allowing readers to quickly understand what they can expect.\n\n\nDetailed description\nProvide a comprehensive overview of the resource or topic. This should include:\n\nPurpose and scope: Clearly state what the resource covers and its main objectives. Explain why the content is valuable and how it can help practitioners.\nKey features: Highlight the unique aspects or strengths of the resource. This could include practical examples, interactive elements, or real-world applications.\nStrengths and weaknesses: Provide a balanced view by discussing both the strengths and any potential limitations of the resource. This helps users make informed decisions about whether the resource is right for them.\n\n\n\nPrerequisites\nList any necessary background knowledge or skills required to fully benefit from the resource. This helps set expectations and ensures that users are adequately prepared. Include links to additional resources or tutorials that can help users gain the required knowledge.\n\n\nEstimated time to complete\nOffer an estimate of the time commitment needed to complete the resource. This helps users plan their learning activities and manage their time effectively.\n\n\nAccessibility and usability\nEnsure the resource is easy to access and use. We want the majority of resources on Nexus to be free and open source (with possibly a few rare exceptions for tools/resources in high-demand). Provide clear instructions on how to navigate and utilize the content. If the resource is hosted externally, include a direct link and any necessary login or access information.\n\n\nAdditional related resources\nInclude links to related materials or further readings that can enhance the user’s understanding and provide more in-depth knowledge on the topic. This can include books, articles, other workshops, or case studies. When possible, link to any relevant materials which are already hosted on the Nexus platform.\n\n\nExamples of good posts\nPlease see below for a list of resources that meet our platform’s standards. You can use these examples in conjunction with the template files provided in the next section to create your post. You can click “Improve this page” near the top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the GitHub repo.\n\nExternal content\n\n\nOriginal content\n\nKnowledge Base: Guide",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#how-to-make-a-new-post-with-github",
+    "href": "KB/Guides/How-to-contribute.html#how-to-make-a-new-post-with-github",
+    "title": "How to Contribute?",
+    "section": "How to make a new post with GitHub?",
+    "text": "How to make a new post with GitHub?\n\nPrerequisites\nYou do not necessarily need specific training in anything, but you will need to use git and GitHub:\n\nSome familiarity with git or GitHub Desktop (clone, pull, commit, push)\nA GitHub account and some familiarity with GitHub (Fork, Issues, Pull Request)\n\n\n\nGitHub collaboration model\nWe follow GitHub’s collaboration model, so the general idea to make a post or edit a document is the same. The high-level steps include :\n\nGet started with git and GitHub\nCreate an issue announcing your plan to add a resource — see UW RSE Nexus Issues\nFork the UW RSE Nexus repository\nClone the forked repository onto your local machine\nCreate a new branch\nWrite the post\n\n(optional) Preview and iterate\n\ncommit and push the changes\nMake a pull request\nWait for review\n\nIf you don’t know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier alternative could be to download GitHub desktop and add your post using the instructions provided below. If you’d like to learn more about GitHub Desktop, check out the Version Control with GitHub Desktop guide on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the Data Science Hub’s office hours (“Coding Meetup”).\n\n1. Get Started with GitHub Desktop (recommended if you’re new to Git and GitHub)\n\nGo to the GitHub Desktop website and download the application for your operating system. Install GitHub Desktop by following the on-screen instructions.\nOpen GitHub Desktop and sign in with your GitHub account. If you don’t have one, you will need to create your GitHub account first.\n\n\n\n2. Create an Issue on Nexus GitHub\nBefore you start writing your content, create an issue on the Nexus GitHub to announce your intended addition. This helps the Nexus development team keep track of new contributions and provides an opportunity for feedback.\n\nGo to the UW RSE Nexus GitHub Issues page\nClick on the New Issue button.\nTitle the issue with the name of your resource, and add a “Resource” label/tag (found on right side panel of issue post).\nDescribe why you think this resource should be included on the Nexus platform.\nWait for feedback: Wait for one of the Nexus developers to provide feedback or comments on your issue before proceeding.\n\n\n\n3. Fork the Repository\nThe purpose of a Fork is to create a copy of the original repository that can be syncronized. In an open-source collaboration, the original repository will not allow you to make edits directly. Instead, you will update your Fork and then ask the original repository owners to integrate your changes through a Pull Request (PR), which you will do in step 8.\n\nGo to the UW RSE Nexus repository on GitHub.\nClick the Fork button at the top-right corner of the page.\n\nThis will create a copy of the repository under your GitHub account.\nYou will now be able to make changes to your Forked copy of the repository.\n\n\n\n\n4. Clone the Repository to Your System to Your Local System\nCloning your Fork to your local filesystem will allow you to use your development environment of choice to make changes.\n\nFrom your new forked version of the repo on GitHub, click the green Code button to copy the HTTPS URL of the fork\nIn GitHub Desktop, click on File &gt; Clone Repository.\nPaste the URL and click Clone\n\n\n\n5. Create a New Branch\nIt is common practice to create a new branch anytime you perform work as a new feature, update, or fix. This is often called a “feature branch”. The name comes from the idea that each feature should have its own branch, in an effort to keep things tidy.\n\nIn GitHub Desktop, click on Branch &gt; New Branch.\nName your new branch descriptively based on the resource type and name (e.g., workshop-introDL, video-NeurIPS2024, etc.).\n\n\n\n6. Write Your Post\nThis is where you make changes to add your new content. Often times this starts by copying a template of your desired content (links below) into the desired folder and editing it to reflect the content you want to share.\n\nOpen your favorite text editor or IDE (e.g., Visual Studio Code, Sublime Text).\nWrite your post in the appropriate format. Follow the guidelines below, making use the template files provided.\n\n\n\nResource templates\nIf applicable, start with one of the relevant template files linked below. There are comments in each template that will help you make the appropriate edits for your resource. You can also check out how other posts have been formatted by clicking “Improve this page” from a given post’s webpage. This will bring you directly to the qmd file for that post.\n\nKnowledge Base - Presentation\nProject\n\n\n\nWhere to place your resource qmd file\nWe want the site to be constantly evolving with the community, and our intention is to keep the contributions to the site as free as possible. However, we added some sections to structure the site a little bit:\n\n├── Knowledge Base\n│   ├── Presentations\n│   ├── Resources\n│   ├── Guides\n├── Projects\nNote: If you think your resource does not fit into one of these areas, we have the power to expand. Create an issue on the UW RSE Nexus GitHub. From there we can discuss and adjust.\n\nHow to preview new content\nIt is possible to preview the page you are creating on your local machine before you make the pull request, or even commit any changes. This requires Quarto to be installed on your local machine. Note that this can be very helpful, but try not to spend too much time iterating without committing, pushing, and completing the Pull Request process. You can always come back to this step and improve the content after it is submitted for review.\n\nInstall Quarto on your local machine\nOpen terminal/shell/command line and run the quarto preview &lt;my_new_content.qmd&gt; command (replace &lt;my_new_content.qmd&gt; with your content file)\nWait for the files to render (this can take a while the first time as it renders all pages the first time)\nA browser window should open with your version of the UW RSE Nexus page\nReview your changes\n\nWhile the quarto preview command is running, the content will update when it notices a change. This allows you to iterate quickly between review and editing. When you want to stop previewing, cancel the quarto preview command. Usually this is done by pressing Ctrl+C in the terminal window.\n\n\n\n7. Commit and Push Changes\nCommit and push changes to your feature branch as you work. You can commit and push as many times as you want to track the updates anc changes you’ve made.\n\nIn GitHub Desktop, you should see your changes listed under Changes.\nWrite a descriptive commit message (e.g., Add new resource: workshop-introDL).\nClick Commit to your-branch-name.\nClick on Repository &gt; Push to push your changes to GitHub.\n\n\n\n8. Make a Pull Request\nPull Request (PR) is the term used when you request that one branch be pulled into another. The process of combining branches is often called a merge. In this case, you will ask the original repository to merge your Fork’s feature branch into their main branch. This PR will notify the original repository owner of your request and will then be reviewed.\n\nGo to your forked repository on GitHub.\nClick on the Compare & pull request button.\nEnsure you are merging into the “main” branch of the UW RSE-Nexus repository.\nWrite a descriptive title and comment for your pull request.\nClick Create pull request.\n\n\n\n9. Wait for Review\nYour Pull Request (PR) will need to be reviewed by the owner of the original repository.\n\nOne of the Nexus developers will review your pull request. They may provide feedback or request changes.\nAddress any feedback and push additional commits as needed.",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#how-to-improve-an-existing-post",
+    "href": "KB/Guides/How-to-contribute.html#how-to-improve-an-existing-post",
+    "title": "How to Contribute?",
+    "section": "How to improve an existing post?",
+    "text": "How to improve an existing post?\nWant to add a code-along exercise to an existing post, add your perspective, or correct a typo? Anyone is welcome and encouraged to suggest improvements to existing materials hosted on Nexus! The most straightforward way to do this is to click “Improve this page” from the post’s webpage on Nexus to suggest your edits. The below steps will walk you through this process.\n\nSteps to improve a post on Nexus via GitHub (no software installation needed):\n\nClick “Improve this page”: This will redirect you to the GitHub repository where the content of the post is stored.\nEdit the file directly on GitHub:\n\nOn the GitHub page, click the pencil icon (✏️) at the top right of the file to edit the content directly in your browser. No need to install any git software!\nMake your changes in the text editor. You can add a code-long exercise, share your perspective, or correct any typos.\n\nCommit your changes:\n\nAfter you have made your edits, scroll down to the “Commit changes” section.\nWrite a brief description of what you changed.\nChoose the option to “Create a new branch for this commit and start a pull request.”\n\nCreate a pull request:\n\nClick the “Propose changes” button.\nYou will be taken to a new page where you can review your changes.\nClick “Create pull request” to submit your changes for review.\n\n\nCongratulations! You have suggested an improvement to a Nexus post. The repository maintainers will review your pull request, and if everything looks good, your changes will be merged into the post.\nNote: While you can make these edits directly on GitHub without any software installation, we recommend all ML practitioners learn git! Check out our guide on intro to git.",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/How-to-contribute.html#questions",
+    "href": "KB/Guides/How-to-contribute.html#questions",
+    "title": "How to Contribute?",
+    "section": "Questions?",
+    "text": "Questions?\nIf you any lingering questions on how to contribute, please feel free to post to the UW RSE Nexus Q&A on GitHub. We will improve this guide based on additional questions/comments we receive.",
+    "crumbs": [
+      "How to contribute?"
+    ]
+  },
+  {
+    "objectID": "KB/Guides/index.html",
+    "href": "KB/Guides/index.html",
+    "title": "Guides",
+    "section": "",
+    "text": "Explore helpful guides for software, packages, and other Research Software Engineering tools.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Contribute?\n\n\n\nGuides\n\nContribute\n\n\n\n\n\n\n\nUW RSE\n\n\n2026-04-10\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with GitHub Desktop\n\n\n\nGuides\n\nReproducibility\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\n\n\n\n\n\n\n\nVersion Control with Git and GitHub (Carpentries)\n\n\n\nWorkshops\n\nVideos\n\nReproducibility\n\nCarpentries\n\nGit/GitHub\n\nCode-along\n\n\n\n\n\n\n\nChris Endemann\n\n\n2024-07-11\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Knowledge Base",
-      "Presentations"
+      "Guides"
     ]
+  },
+  {
+    "objectID": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html",
+    "href": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html",
+    "title": "Introducing the UW RSE Nexus",
+    "section": "",
+    "text": "The UW RSE Nexus is the Research Software Engineer (RSE) community’s hub of knowledge and projects. It is a place to share RSE knowledge, events and projects with the community. The open-source project is designed as an introduction to collaboration with the goal to serve the community’s needs. If you would like to contribute, please follow the contribution guide. If you don’t know where to start, see our GitHub Issues (resource) for inspiration. If you have an idea but don’t want to contribute, add an issue with the resource tag."
+  },
+  {
+    "objectID": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "href": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d",
+    "title": "Introducing the UW RSE Nexus",
+    "section": "",
+    "text": "The UW RSE Nexus is the Research Software Engineer (RSE) community’s hub of knowledge and projects. It is a place to share RSE knowledge, events and projects with the community. The open-source project is designed as an introduction to collaboration with the goal to serve the community’s needs. If you would like to contribute, please follow the contribution guide. If you don’t know where to start, see our GitHub Issues (resource) for inspiration. If you have an idea but don’t want to contribute, add an issue with the resource tag."
+  },
+  {
+    "objectID": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#questions",
+    "href": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#questions",
+    "title": "Introducing the UW RSE Nexus",
+    "section": "Questions?",
+    "text": "Questions?\nIf you any lingering questions about this resource, please feel free to post to the Nexus Q&A on GitHub. We will improve materials on this website as additional questions come in."
+  },
+  {
+    "objectID": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#see-also",
+    "href": "KB/Presentations/presentation_2026-05-05_uwrse_nexus.html#see-also",
+    "title": "Introducing the UW RSE Nexus",
+    "section": "See also",
+    "text": "See also\n\n\nGitHub Repo: The project repository\nHow to contribute: Contribute\nGitHub Issues: Issues for the project"
   },
   {
     "objectID": "KB/Resources/index.html",
