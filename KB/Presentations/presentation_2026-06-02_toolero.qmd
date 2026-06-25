@@ -1,5 +1,5 @@
 ---
-title: "toolero: " # enter the title of the resource (typically the name of the presentation/article/workshop/video/book/etc. )
+title: "toolero: An R package for research" # enter the title of the resource (typically the name of the presentation/article/workshop/video/book/etc. )
 author: 
   - name: Erwin Lares # replace with your name
     email: erwin.lares@wisc.edu # If you prefer not to share your email, delete this entire line (including "email:").
