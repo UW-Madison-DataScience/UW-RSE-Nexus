@@ -1,0 +1,60 @@
+---
+title: "toolero: " # enter the title of the resource (typically the name of the presentation/article/workshop/video/book/etc. )
+author: 
+  - name: Erwin Lares # replace with your name
+    email: erwin.lares@wisc.edu # If you prefer not to share your email, delete this entire line (including "email:").
+
+date: 2026-06-02 # enter today's date as YYYY-MM-DD
+date-format: long # leave as is
+image: "/images/toolerologo.png" # In your local copy of the Nexus repository, add a representative image for this resource to the images folder. Both PNGs and JPGs are acceptable formats. Adjust the filename here from "vincent-van-zalinge-mDohQISBnCk-unsplash.jpg" to the name of your image.
+
+# Enter a list of relevant categories/tags for this resource, including the type (workshop, book, video, podcast, etc.) topic of focus, and anything else that might be relevant. Please check out the tags which are already being used on Nexus by visiting https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/ and looking under "Categories". Avoid repeating tags with alternative spelling (e.g., use Deep Learning rather than DL since Deep Learning is already being used.). 
+# Example categories below:
+categories: 
+  - Compute # Deep learning, Regression, Large language models, NLP, Clustering, Decision trees, etc.
+  - Open-Source # If there is a codebase, is it open-source?
+  - Project
+  - R # Python, R, PyTorch, Keras, Tensorflow, Sklearn, etc.
+  - Quarto
+  - Package # Is this a package or library for use in other projects?
+  - Presentation # Presentation, Workshops, Books, Podcasts, Videos, Blogs, Models, Datasets, EDA, etc.
+    # Include this tag for any resource that involves coding along as a learning mechanism (e.g., workshop, short demo/guide with code examples)
+    # Anything else you think people may want to group this by 
+  - CHTC
+  - Containerization
+---
+## {{< meta title >}}
+Every research coding project begins with a blank slate and a cluster of low-stakes decisions — where does the data go,
+what do I call the scripts, do I track dependencies? The trouble is that these decisions rarely stay low-stakes. The 
+cost surfaces later, when a collaborator tries to reproduce the analysis, when the project needs to move to a computing
+cluster, or when you return to it six months later and realize the outputs no longer match the code.
+
+At the June UW-RSEng monthly meeting, I presented toolero, a small, opinionated R package designed to reduce that 
+friction. The motivating idea is simple: best practices are easier to adopt when the tooling makes them the path of 
+least resistance. toolero does not impose a rigid framework — it provides sensible defaults and gets out of the way. 
+init_project() scaffolds a standard folder structure and optionally initializes renv and git from the start. 
+create_qmd() produces a reproducible Quarto document with a post-render hook that keeps the .R script derived from — 
+rather than diverging from — the source document. read_clean_csv() and write_clean_csv() make the raw/clean data 
+distinction explicit and automatic. write_by_group() splits a data frame into per-group files, producing a manifest 
+that feeds directly into high-throughput computing job submission. And detect_execution_context() handles the perennial
+headache of file path resolution across interactive, Quarto, and Rscript environments.
+
+toolero is also the first step in a three-package family — containr and submitr extend the same philosophy toward 
+containerization and CHTC job submission — but it stands on its own for anyone whose work lives entirely on their laptop.
+
+The package is on CRAN. Documentation and examples are at [erwinlares.github.io/toolero](erwinlares.github.io/toolero).
+
+## Questions?
+If you any lingering questions about this resource, please feel free to post to the [Nexus Q&A](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a) on GitHub. 
+We will improve materials on this website as additional questions come in.
+
+## See also
+<!-- MARKDOWN COMMENT: Please Check the existing resources on Nexus to see if any other related resources 
+(e.g., related books/videos, blog posts commenting on the resource, alternative approaches/frameworks, etc.) 
+should be linked below. You may also link to resources which aren't currently on the Nexus platform, if applicable. 
+However, if you're feeling ambitious, you may wish to post those to Nexus as well!
+NOTE: When doing related resources links to UW RSE Nexus pages, please use local pathing to the .qmd file instead
+of the web url. So, use "/KB/Guides/some_guide.qmd" instead of the "https://.../some_guide.html" URL.
+-->
+- [toolero on GitHub](https://github.com/erwinlares/toolero/): Github toolero page.
+
