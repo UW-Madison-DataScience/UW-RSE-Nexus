@@ -29,7 +29,7 @@ what do I call the scripts, do I track dependencies? The trouble is that these d
 cost surfaces later, when a collaborator tries to reproduce the analysis, when the project needs to move to a computing
 cluster, or when you return to it six months later and realize the outputs no longer match the code.
 
-At the June UW-RSEng monthly meeting, I presented toolero, a small, opinionated R package designed to reduce that 
+At the June UW-RSE monthly meeting, I presented toolero, a small, opinionated R package designed to reduce that 
 friction. The motivating idea is simple: best practices are easier to adopt when the tooling makes them the path of 
 least resistance. toolero does not impose a rigid framework — it provides sensible defaults and gets out of the way. 
 init_project() scaffolds a standard folder structure and optionally initializes renv and git from the start. 
@@ -40,7 +40,8 @@ that feeds directly into high-throughput computing job submission. And detect_ex
 headache of file path resolution across interactive, Quarto, and Rscript environments.
 
 toolero is also the first step in a three-package family — containr and submitr extend the same philosophy toward 
-containerization and CHTC job submission — but it stands on its own for anyone whose work lives entirely on their laptop.
+containerization and CHTC job submission — but it stands on its own for anyone whose work lives entirely on their 
+laptop.
 
 The package is on CRAN. Documentation and examples are at [erwinlares.github.io/toolero](erwinlares.github.io/toolero).
 
