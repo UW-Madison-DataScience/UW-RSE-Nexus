@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Erwin Lares">
+<meta name="dcterms.date" content="2026-06-02">
 
-<title>Presentations – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
+<title>toolero: An R package for research – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,10 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../KB/Resources/index.html" rel="next">
-<link href="../../KB/index.html" rel="prev">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -73,65 +71,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -144,7 +84,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../KB/Presentations/index.html">Presentations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">toolero: An R package for research</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -154,7 +94,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -196,7 +136,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../KB/Presentations/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../KB/Presentations/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Presentations</span></a>
   </div>
 </li>
@@ -226,20 +166,52 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29sbGFib3JhdGlvbg==">Collaboration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udGFpbmVyaXphdGlvbg==">Containerization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3Blbi1Tb3VyY2U=">Open-Source <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGFja2FnZQ==">Package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHJvamVjdA==">Project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29mdHdhcmUtRGVzaWdu">Software-Design <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">toolero: An R package for research</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  <li><a href="#see-also" id="toc-see-also" class="nav-link" data-scroll-target="#see-also">See also</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-06-02_toolero.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../KB/index.html">Knowledge Base</a></li><li class="breadcrumb-item"><a href="../../KB/Presentations/index.html">Presentations</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
-</div>
+<h1 class="title">toolero: An R package for research</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Compute</div>
+    <div class="quarto-category">Open-Source</div>
+    <div class="quarto-category">Project</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Package</div>
+    <div class="quarto-category">Presentation</div>
+    <div class="quarto-category">CHTC</div>
+    <div class="quarto-category">Containerization</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Erwin Lares <a href="mailto:erwin.lares@wisc.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 2, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -249,135 +221,40 @@ window.Quarto = {
 </header>
 
 
-<p>Explore past presentations given at UW RSE events. If you have an upcomming presentation or have already given one, feel free to <a href="../../KB/Guides/How-to-contribute.html">contribute</a>.</p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">toolero: An R package for research</h2>
+<p>Every research coding project begins with a blank slate and a cluster of low-stakes decisions — where does the data go, what do I call the scripts, do I track dependencies? The trouble is that these decisions rarely stay low-stakes. The cost surfaces later, when a collaborator tries to reproduce the analysis, when the project needs to move to a computing cluster, or when you return to it six months later and realize the outputs no longer match the code.</p>
+<p>At the June 2026 UW-RSE monthly meeting, I presented toolero, a small, opinionated R package designed to reduce that friction. The motivating idea is simple: best practices are easier to adopt when the tooling makes them the path of least resistance. toolero does not impose a rigid framework — it provides sensible defaults and gets out of the way.</p>
+<p>Here are a few functions I covered:</p>
+<p><code>init_project()</code> scaffolds a standard folder structure and optionally initializes renv and git from the start.</p>
+<p><code>create_qmd()</code> produces a reproducible Quarto document with a post-render hook that keeps the .R script derived from — rather than diverging from — the source document.</p>
+<p><code>read_clean_csv()</code> and <code>write_clean_csv()</code> make the raw/clean data distinction explicit and automatic.</p>
+<p><code>write_by_group()</code> splits a data frame into per-group files, producing a manifest that feeds directly into high-throughput computing job submission.</p>
+<p>And <code>detect_execution_context()</code> handles the perennial headache of file path resolution across interactive, Quarto, and Rscript environments.</p>
+<p>toolero is also the first step in a three-package family — containr and submitr extend the same philosophy toward containerization and CHTC job submission — but it stands on its own for anyone whose work lives entirely on their laptop.</p>
+<p>The package is on CRAN. Documentation and examples are at <a href="erwinlares.github.io/toolero">erwinlares.github.io/toolero</a>.</p>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
+<p>If you any lingering questions about this resource, please feel free to post to the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a">Nexus Q&amp;A</a> on GitHub. We will improve materials on this website as additional questions come in.</p>
+</section>
+<section id="see-also" class="level2">
+<h2 class="anchored" data-anchor-id="see-also">See also</h2>
+<!-- MARKDOWN COMMENT: Please Check the existing resources on Nexus to see if any other related resources 
+(e.g., related books/videos, blog posts commenting on the resource, alternative approaches/frameworks, etc.) 
+should be linked below. You may also link to resources which aren't currently on the Nexus platform, if applicable. 
+However, if you're feeling ambitious, you may wish to post those to Nexus as well!
+NOTE: When doing related resources links to UW RSE Nexus pages, please use local pathing to the .qmd file instead
+of the web url. So, use "/KB/Guides/some_guide.qmd" instead of the "https://.../some_guide.html" URL.
+-->
+<ul>
+<li><a href="https://github.com/erwinlares/toolero/">toolero on GitHub</a>: Github toolero page.</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q29tcHV0ZSUyQ09wZW4tU291cmNlJTJDUHJvamVjdCUyQ1IlMkNRdWFydG8lMkNQYWNrYWdlJTJDUHJlc2VudGF0aW9uJTJDQ0hUQyUyQ0NvbnRhaW5lcml6YXRpb24=" data-listing-date-sort="1780358400000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="408">
-<a href="../../KB/Presentations/presentation_2026-06-02_toolero.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../images/toolerologo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-toolero: An R package for research
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0ZQ=='); return false;">Compute</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3Blbi1Tb3VyY2U='); return false;">Open-Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvamVjdA=='); return false;">Project</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFja2FnZQ=='); return false;">Package</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q0hUQw=='); return false;">CHTC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFpbmVyaXphdGlvbg=='); return false;">Containerization</div>
-
-</div>
-<div class="card-text listing-description delink">
-Every research coding project begins with a blank slate and a cluster of low-stakes decisions — where does the data go, what do I call the scripts, do I track dependencies?…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Erwin Lares
-</div>
-<div class="listing-date">
-2026-06-02
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDUXVhcnRvJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
-<a href="../../KB/Presentations/presentation_2026-05-05_uwrse_nexus.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../images/UW-RSE_Logo_Secondary_Tagline_Transparent.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introducing the UW RSE Nexus
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGFib3JhdGlvbg=='); return false;">Collaboration</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3Blbi1Tb3VyY2U='); return false;">Open-Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
-
-</div>
-<div class="card-text listing-description delink">
-The UW RSE Nexus is the Research Software Engineer (RSE) community’s hub of knowledge and projects. It is a place to share RSE knowledge, events and projects with the…<code></code>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ryan Bemowski
-</div>
-<div class="listing-date">
-2026-05-05
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDU29mdHdhcmUtRGVzaWduJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1770076800000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4045">
-<a href="../../KB/Presentations/presentation_2026-02-03_abstraction.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../images/how-abstraction-empowers-thumbnail7.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How Abstraction Empowers
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGFib3JhdGlvbg=='); return false;">Collaboration</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3Blbi1Tb3VyY2U='); return false;">Open-Source</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U29mdHdhcmUtRGVzaWdu'); return false;">Software-Design</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
-
-</div>
-<div class="card-text listing-description delink">
-Hi! 👋 I’m Matt Christie, a data engineer at University of Wisconsin-Madison’s Global Land Use and Environment Lab (GLUE). Recently I had an opportunity to present on the…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Matt Christie
-</div>
-<div class="listing-date">
-2026-02-03
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -778,21 +655,9 @@ Matt Christie
     }
   });
   </script>
-<nav class="page-navigation column-body">
-  <div class="nav-page nav-page-previous">
-      <a href="../../KB/index.html" class="pagination-link" aria-label="Knowledge Base">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Knowledge Base</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../KB/Resources/index.html" class="pagination-link" aria-label="Resources">
-        <span class="nav-page-text">Resources</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-06-02_toolero.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>

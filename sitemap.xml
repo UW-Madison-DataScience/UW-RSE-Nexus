@@ -2,82 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/glossary.html</loc>
-    <lastmod>2026-06-25T18:22:17.522Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/Contributor-templates/template_project.html</loc>
-    <lastmod>2026-06-25T18:22:17.520Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.860Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.553Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.891Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/insights/plot_insights.html</loc>
-    <lastmod>2026-06-25T18:22:17.554Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.892Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Guides/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Guides/Intro-git-github.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Presentations/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
-    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Presentations/presentation_2026-02-03_abstraction.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Resources/CHTC.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/netID-disclaimer.html</loc>
-    <lastmod>2026-06-25T18:22:17.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/genAI-disclaimer.html</loc>
-    <lastmod>2026-06-25T18:22:17.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/common-resources-text.html</loc>
-    <lastmod>2026-06-25T18:22:17.553Z</lastmod>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Presentations/presentation_2026-06-02_toolero.html</loc>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Resources/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/common-resources-text.html</loc>
+    <lastmod>2026-06-25T18:59:32.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/genAI-disclaimer.html</loc>
+    <lastmod>2026-06-25T18:59:32.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/includes/netID-disclaimer.html</loc>
+    <lastmod>2026-06-25T18:59:32.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Resources/CHTC.html</loc>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Presentations/presentation_2026-02-03_abstraction.html</loc>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Presentations/presentation_2026-05-05_uwrse_nexus.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/Guides/Github-desktop.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.860Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/KB/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.521Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/insights/Parse_leaderboard.html</loc>
-    <lastmod>2026-06-25T18:22:17.553Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.891Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/Projects/index.html</loc>
-    <lastmod>2026-06-25T18:22:17.522Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.861Z</lastmod>
   </url>
   <url>
     <loc>https://UW-Madison-DataScience.github.io/UW-RSE-Nexus/Contributor-templates/template_kb_presentation.html</loc>
-    <lastmod>2026-06-25T18:22:17.520Z</lastmod>
+    <lastmod>2026-06-25T18:59:32.860Z</lastmod>
   </url>
 </urlset>

@@ -83,7 +83,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-author','listing-date','listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 6,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -225,7 +226,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Q2FycGVudHJpZXM=">Carpentries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29kZS1hbG9uZw==">Code-along <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sbGFib3JhdGlvbg==">Collaboration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJpYnV0ZQ==">Contribute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0JTJGR2l0SHVi">Git/GitHub <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1BV">GPU <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3VpZGVz">Guides <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T3Blbi1Tb3VyY2U=">Open-Source <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U29mdHdhcmUtRGVzaWdu">Software-Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW9z">Videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Q2FycGVudHJpZXM=">Carpentries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29kZS1hbG9uZw==">Code-along <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sbGFib3JhdGlvbg==">Collaboration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29udGFpbmVyaXphdGlvbg==">Containerization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJpYnV0ZQ==">Contribute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0JTJGR2l0SHVi">Git/GitHub <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1BV">GPU <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3VpZGVz">Guides <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T3Blbi1Tb3VyY2U=">Open-Source <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGFja2FnZQ==">Package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHJvamVjdA==">Project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U29mdHdhcmUtRGVzaWdu">Software-Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW9z">Videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -270,7 +271,52 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDUXVhcnRvJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
+<div class="g-col-1" data-index="0" data-categories="Q29tcHV0ZSUyQ09wZW4tU291cmNlJTJDUHJvamVjdCUyQ1IlMkNRdWFydG8lMkNQYWNrYWdlJTJDUHJlc2VudGF0aW9uJTJDQ0hUQyUyQ0NvbnRhaW5lcml6YXRpb24=" data-listing-date-sort="1780358400000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="408">
+<a href="./KB/Presentations/presentation_2026-06-02_toolero.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/toolerologo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+toolero: An R package for research
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0ZQ=='); return false;">Compute</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3Blbi1Tb3VyY2U='); return false;">Open-Source</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvamVjdA=='); return false;">Project</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFja2FnZQ=='); return false;">Package</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q0hUQw=='); return false;">CHTC</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFpbmVyaXphdGlvbg=='); return false;">Containerization</div>
+
+</div>
+<div class="card-text listing-description delink">
+Every research coding project begins with a blank slate and a cluster of low-stakes decisions — where does the data go, what do I call the scripts, do I track dependencies?…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Erwin Lares
+</div>
+<div class="listing-date">
+2026-06-02
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDUXVhcnRvJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
 <a href="./KB/Presentations/presentation_2026-05-05_uwrse_nexus.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -307,7 +353,7 @@ Ryan Bemowski
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R3VpZGVzJTJDQ29udHJpYnV0ZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2139">
+<div class="g-col-1" data-index="2" data-categories="R3VpZGVzJTJDQ29udHJpYnV0ZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2139">
 <a href="./KB/Guides/How-to-contribute.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -338,7 +384,7 @@ UW RSE
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDU29mdHdhcmUtRGVzaWduJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1770076800000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4045">
+<div class="g-col-1" data-index="3" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDU29mdHdhcmUtRGVzaWduJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1770076800000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4045">
 <a href="./KB/Presentations/presentation_2026-02-03_abstraction.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -375,7 +421,7 @@ Matt Christie
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R3VpZGVzJTJDUmVwcm9kdWNpYmlsaXR5JTJDR2l0JTJGR2l0SHViJTJDQ29kZS1hbG9uZw==" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629">
+<div class="g-col-1" data-index="4" data-categories="R3VpZGVzJTJDUmVwcm9kdWNpYmlsaXR5JTJDR2l0JTJGR2l0SHViJTJDQ29kZS1hbG9uZw==" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1782413972860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629">
 <a href="./KB/Guides/Github-desktop.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -410,7 +456,7 @@ Chris Endemann
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="V29ya3Nob3BzJTJDVmlkZW9zJTJDUmVwcm9kdWNpYmlsaXR5JTJDQ2FycGVudHJpZXMlMkNHaXQlMkZHaXRIdWIlMkNDb2RlLWFsb25n" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
+<div class="g-col-1" data-index="5" data-categories="V29ya3Nob3BzJTJDVmlkZW9zJTJDUmVwcm9kdWNpYmlsaXR5JTJDQ2FycGVudHJpZXMlMkNHaXQlMkZHaXRIdWIlMkNDb2RlLWFsb25n" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
 <a href="./KB/Guides/Intro-git-github.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -449,11 +495,11 @@ Chris Endemann
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Q29tcHV0ZSUyQ0dQVSUyQ0NIVEM=" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1782411737521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="g-col-1" data-index="6" data-categories="Q29tcHV0ZSUyQ0dQVSUyQ0NIVEM=" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1782413972861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <a href="./KB/Resources/CHTC.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./images/CHTC.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" data-src="./images/CHTC.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -484,6 +530,9 @@ Chris Endemann
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
