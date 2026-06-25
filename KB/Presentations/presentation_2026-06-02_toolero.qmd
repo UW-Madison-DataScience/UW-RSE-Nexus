@@ -32,12 +32,21 @@ cluster, or when you return to it six months later and realize the outputs no lo
 At the June 2026 UW-RSE monthly meeting, I presented toolero, a small, opinionated R package designed to reduce that 
 friction. The motivating idea is simple: best practices are easier to adopt when the tooling makes them the path of 
 least resistance. toolero does not impose a rigid framework — it provides sensible defaults and gets out of the way. 
-init_project() scaffolds a standard folder structure and optionally initializes renv and git from the start. 
-create_qmd() produces a reproducible Quarto document with a post-render hook that keeps the .R script derived from — 
-rather than diverging from — the source document. read_clean_csv() and write_clean_csv() make the raw/clean data 
-distinction explicit and automatic. write_by_group() splits a data frame into per-group files, producing a manifest 
-that feeds directly into high-throughput computing job submission. And detect_execution_context() handles the perennial
-headache of file path resolution across interactive, Quarto, and Rscript environments.
+
+Here are a few functions I covered:
+
+`init_project()` scaffolds a standard folder structure and optionally initializes renv and git from the start. 
+
+`create_qmd()` produces a reproducible Quarto document with a post-render hook that keeps the .R script derived from — 
+rather than diverging from — the source document. 
+
+`read_clean_csv()` and `write_clean_csv()` make the raw/clean data distinction explicit and automatic. 
+
+`write_by_group()` splits a data frame into per-group files, producing a manifest that feeds directly into 
+high-throughput computing job submission. 
+
+And `detect_execution_context()` handles the perennial headache of file path resolution across interactive, Quarto, 
+and Rscript environments.
 
 toolero is also the first step in a three-package family — containr and submitr extend the same philosophy toward 
 containerization and CHTC job submission — but it stands on its own for anyone whose work lives entirely on their 
