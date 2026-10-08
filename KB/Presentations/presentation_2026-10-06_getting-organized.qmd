@@ -12,7 +12,7 @@ image: "/images/getting-organized.png"
 # Example categories below:
 categories:
   - Object-oriented programming (OOP)
-  - Test Drive Development (TDD)
+  - Test-Driven Development (TDD)
   - Natural Language Processing (NLP)
   - Embeddings
   - Machine Learning
