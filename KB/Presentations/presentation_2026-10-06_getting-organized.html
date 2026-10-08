@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ryan Bemowski">
-<meta name="dcterms.date" content="2026-05-05">
+<meta name="author" content="Steve Meyer">
+<meta name="dcterms.date" content="2026-10-06">
 
-<title>Introducing the UW RSE Nexus – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
+<title>Getting Organized: Using software engineering best practices to improve research computational processes – UW RSE Nexus: The crowdsourced Research Software Engineering resource hub</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introducing the UW RSE Nexus</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Getting Organized: Using software engineering best practices to improve research computational processes</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -173,23 +173,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">Introducing the UW RSE Nexus</a></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">Getting Organized: Using software engineering best practices to improve research computational processes</a>
+  <ul class="collapse">
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  </ul></li>
   <li><a href="#see-also" id="toc-see-also" class="nav-link" data-scroll-target="#see-also">See also</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-05-05_uwrse_nexus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-10-06_getting-organized.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducing the UW RSE Nexus</h1>
+<h1 class="title">Getting Organized: Using software engineering best practices to improve research computational processes</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Collaboration</div>
-    <div class="quarto-category">Open-Source</div>
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Object-oriented programming (OOP)</div>
+    <div class="quarto-category">Test-Driven Development (TDD)</div>
+    <div class="quarto-category">Natural Language Processing (NLP)</div>
+    <div class="quarto-category">Embeddings</div>
+    <div class="quarto-category">Machine Learning</div>
     <div class="quarto-category">Presentation</div>
   </div>
   </div>
@@ -201,14 +204,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Ryan Bemowski <a href="mailto:rbemowski@wisc.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+             <p>Steve Meyer <a href="mailto:stephen.meyer@wisc.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 5, 2026</p>
+      <p class="date">October 6, 2026</p>
     </div>
   </div>
   
@@ -220,40 +223,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- MARKDOWN COMMENT: For a good example of an external resource post, check out: 
-https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Workshops/Intro-Deeplearning_Keras.html
-
-... and the .qmd file which stores the page's content
-https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Learn/Workshops/Intro-Deeplearning_Keras.qmd
-
--->
 <section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">Introducing the UW RSE Nexus</h2>
-<!-- MARKDOWN COMMENT: Replace the instructions below with your a brief overview or abstract of your presentation -->
-<p>The UW RSE Nexus is the Research Software Engineer (RSE) community’s hub of knowledge and projects. It is a place to share RSE knowledge, events and projects with the community. The open-source project is designed as an introduction to collaboration with the goal to serve the community’s needs. If you would like to contribute, please follow the <a href="../../KB/Guides/How-to-contribute.html">contribution guide</a>. If you don’t know where to start, see our <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues?q=is%3Aissue%20state%3Aopen%20label%3Aresource">GitHub Issues (resource)</a> for inspiration. If you have an idea but don’t want to contribute, add an <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues">issue</a> with the <code>resource</code> tag.</p>
-<!-- MARKDOWN COMMENT: If you are using an external link to slides, update the to the URL. If you are using a
-local copy of slides, use "/slides/my_slides.ppt", replacing my_slides.ppt with your file. You can use a download 
-and non-download version using the {download=""} bit of markdown to force it to download.
--->
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461207469746c65203e7d7d">Getting Organized: Using software engineering best practices to improve research computational processes</h2>
+<p>This talk discusses how common practices in software engineering like object oriented programming (OOP) and test-driven development (TDD) can be used in a research computing project. In particular this talk will advocate for the ways that practices like OOP and TDD (while not the only programming paradigms) can be used to guide computer programming software development work to contribute to the stability and resilience of a research project codebase, thereby encouraging a wider range of project experimentation.</p>
+<p>At the UW-Madison Libraries, Steve Meyer and Becky Standard have been working on project to investigate how machine learning computational techniques can be applied to library collections data. Our goal is to develop new ways to define and interact with the topical spaces represented by catalog records using the subject taxonomy widely used by U.S. academic libraries. Using this project with topical clustering at its core as an example case, Steve will discuss how he is using experience with software engineering practices to guide research and development work.</p>
+<ul>
+<li>Writing a code library for encapsulating project assumptions, constraints</li>
+<li>Incorporating a project’s own library within a presentation layer, in our case a web application</li>
+<li>How these best practices help manage a polyglot computational environment where our project makes use of:
+<ul>
+<li>Ruby programming language for our core codebase and the web application framework and text indexing</li>
+<li>Apache Solr indexing software</li>
+<li>Web Standards stack within our web app: HTML/CSS/JS/SVG, including use of the d3.js visualization framework</li>
+<li>Python scripts for experimentation</li>
+<li>Node.js and Typescript/JavaScript scripts for experimentation</li>
+</ul></li>
+</ul>
+<section id="slides" class="level3">
+<h3 class="anchored" data-anchor-id="slides">Slides</h3>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1ewaC1o9FPeCZ2xR5yU6E91QDakQLjcSy7RgFNafNXR8/edit?usp=sharing">Getting Organized: Using software engineering best practices to improve research computational processes slidedeck</a></li>
+</ul>
 </section>
-<section id="questions" class="level2">
-<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
-<p>If you any lingering questions about this resource, please feel free to post to the <a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a">Nexus Q&amp;A</a> on GitHub. We will improve materials on this website as additional questions come in.</p>
 </section>
 <section id="see-also" class="level2">
 <h2 class="anchored" data-anchor-id="see-also">See also</h2>
-<!-- MARKDOWN COMMENT: Please Check the existing resources on Nexus to see if any other related resources 
-(e.g., related books/videos, blog posts commenting on the resource, alternative approaches/frameworks, etc.) 
-should be linked below. You may also link to resources which aren't currently on the Nexus platform, if applicable. 
-However, if you're feeling ambitious, you may wish to post those to Nexus as well!
-NOTE: When doing related resources links to UW RSE Nexus pages, please use local pathing to the .qmd file instead
-of the web url. So, use "/KB/Guides/some_guide.qmd" instead of the "https://.../some_guide.html" URL.
--->
-<ul>
-<li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus">GitHub Repo</a>: The project repository</li>
-<li><a href="../../KB/Guides/How-to-contribute.html">How to contribute</a>: Contribute</li>
-<li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues">GitHub Issues</a>: Issues for the project</li>
-</ul>
+<p><a href="https://pembleton.library.wisc.edu/">Project Website</a>: experiments applying machine learning techniques to library subject heading data.</p>
 
 
 </section>
@@ -664,4 +659,4 @@ of the web url. So, use "/KB/Guides/some_guide.qmd" instead of the "https://.../
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-05-05_uwrse_nexus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/edit/main/KB/Presentations/presentation_2026-10-06_getting-organized.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
