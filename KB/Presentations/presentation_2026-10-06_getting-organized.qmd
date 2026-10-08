@@ -1,0 +1,43 @@
+---
+title: "Getting Organized: Using software engineering best practices to improve research computational processes"
+author:
+  - name: Steve Meyer
+    email: stephen.meyer@wisc.edu
+
+date: 2026-10-06
+date-format: long
+image: "/images/getting-organized.png"
+
+# Enter a list of relevant categories/tags for this resource, including the type (workshop, book, video, podcast, etc.) topic of focus, and anything else that might be relevant. Please check out the tags which are already being used on Nexus by visiting https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/ and looking under "Categories". Avoid repeating tags with alternative spelling (e.g., use Deep Learning rather than DL since Deep Learning is already being used.).
+# Example categories below:
+categories:
+  - Object-oriented programming (OOP)
+  - Test-Driven Development (TDD)
+  - Natural Language Processing (NLP)
+  - Embeddings
+  - Machine Learning
+  - Presentation
+---
+
+## {{< meta title >}}
+
+This talk discusses how common practices in software engineering like object oriented programming (OOP) and test-driven development (TDD) can be used in a research computing project. In particular this talk will advocate for the ways that practices like OOP and TDD (while not the only programming paradigms) can be used to guide computer programming software development work to contribute to the stability and resilience of a research project codebase, thereby encouraging a wider range of project experimentation.
+
+At the UW-Madison Libraries, Steve Meyer and Becky Standard have been working on project to investigate how machine learning computational techniques can be applied to library collections data. Our goal is to develop new ways to define and interact with the topical spaces represented by catalog records using the subject taxonomy widely used by U.S. academic libraries. Using this project with topical clustering at its core as an example case, Steve will discuss how he is using experience with software engineering practices to guide research and development work.
+
+* Writing a code library for encapsulating project assumptions, constraints
+* Incorporating a project's own library within a presentation layer, in our case a web application
+* How these best practices help manage a polyglot computational environment where our project makes use of:
+  * Ruby programming language for our core codebase and the web application framework and text indexing
+  * Apache Solr indexing software
+  * Web Standards stack within our web app: HTML/CSS/JS/SVG, including use of the d3.js visualization framework
+  * Python scripts for experimentation
+  * Node.js and Typescript/JavaScript scripts for experimentation
+
+### Slides
+
+- [{{< meta title >}} slidedeck](https://docs.google.com/presentation/d/1ewaC1o9FPeCZ2xR5yU6E91QDakQLjcSy7RgFNafNXR8/edit?usp=sharing)
+
+## See also
+
+[Project Website](https://pembleton.library.wisc.edu/): experiments applying machine learning techniques to library subject heading data.
