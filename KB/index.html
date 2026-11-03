@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,14 +41,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3c619339ef19c1f78d7db92cc1e9ffe6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-2fa7b0d140e7755aa9229b42bf9ced7e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -99,12 +100,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -139,17 +134,17 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="nav-sidebar docked quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../KB/index.html">Knowledge Base</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../KB/index.html">Knowledge Base</a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -160,7 +155,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Site">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/UW-RSE_Logo_Secondary_Transparent.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
@@ -192,12 +187,12 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../KB/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Knowledge Base</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Knowledge Base</span></a>
+            <button type="button" class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section: Knowledge Base">
+              <i class="bi bi-chevron-right ms-2" aria-hidden="true"></i>
+            </button> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../KB/Presentations/index.html" class="sidebar-item-text sidebar-link">
@@ -230,9 +225,9 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Q2FycGVudHJpZXM=">Carpentries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29kZS1hbG9uZw==">Code-along <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sbGFib3JhdGlvbg==">Collaboration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29udGFpbmVyaXphdGlvbg==">Containerization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJpYnV0ZQ==">Contribute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW1iZWRkaW5ncw==">Embeddings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0JTJGR2l0SHVi">Git/GitHub <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1BV">GPU <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3VpZGVz">Guides <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmF0dXJhbCUyMExhbmd1YWdlJTIwUHJvY2Vzc2luZyUyMChOTFAp">Natural Language Processing (NLP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2JqZWN0LW9yaWVudGVkJTIwcHJvZ3JhbW1pbmclMjAoT09QKQ==">Object-oriented programming (OOP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3Blbi1Tb3VyY2U=">Open-Source <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGFja2FnZQ==">Package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UHJvamVjdA==">Project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U29mdHdhcmUtRGVzaWdu">Software-Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVzdC1Ecml2ZW4lMjBEZXZlbG9wbWVudCUyMChUREQp">Test-Driven Development (TDD) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW9z">Videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Q2FycGVudHJpZXM=">Carpentries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q0hUQw==">CHTC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29kZS1hbG9uZw==">Code-along <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sbGFib3JhdGlvbg==">Collaboration <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q29tcHV0ZQ==">Compute <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29udGFpbmVyaXphdGlvbg==">Containerization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29udHJpYnV0ZQ==">Contribute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW1iZWRkaW5ncw==">Embeddings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0">Git <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2l0JTJGR2l0SHVi">Git/GitHub <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R1BV">GPU <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3VpZGVz">Guides <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmF0dXJhbCUyMExhbmd1YWdlJTIwUHJvY2Vzc2luZyUyMChOTFAp">Natural Language Processing (NLP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T2JqZWN0LW9yaWVudGVkJTIwcHJvZ3JhbW1pbmclMjAoT09QKQ==">Object-oriented programming (OOP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3Blbi1Tb3VyY2U=">Open-Source <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UGFja2FnZQ==">Package <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UHJvamVjdA==">Project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmlsaXR5">Reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U29mdHdhcmUtRGVzaWdu">Software-Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVzdC1Ecml2ZW4lMjBEZXZlbG9wbWVudCUyMChUREQp">Test-Driven Development (TDD) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlkZW9z">Videos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -260,8 +255,43 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="T2JqZWN0LW9yaWVudGVkJTIwcHJvZ3JhbW1pbmclMjAoT09QKSUyQ1Rlc3QtRHJpdmVuJTIwRGV2ZWxvcG1lbnQlMjAoVEREKSUyQ05hdHVyYWwlMjBMYW5ndWFnZSUyMFByb2Nlc3NpbmclMjAoTkxQKSUyQ0VtYmVkZGluZ3MlMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNQcmVzZW50YXRpb24=" data-listing-date-sort="1791244800000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
-<a href="../KB/Presentations/presentation_2026-10-06_getting-organized.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDR2l0JTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1792972800000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<a href="../KB/Presentations/presentation_2026-10-26_uw-rse-git-tutorial.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/uw-rse-git-tutorial.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Story Of Your Project: UW RSE Git Tutorial
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGFib3JhdGlvbg=='); return false;">Collaboration</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3Blbi1Tb3VyY2U='); return false;">Open-Source</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2l0'); return false;">Git</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
+
+</div>
+<div class="card-text listing-description">
+Hello there! 👋 I’m Matt Christie, a data engineer at University of Wisconsin-Madison’s Global Land Use and Environment Lab (GLUE). It was a privilege and a pleasure to…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Matt Christie
+</div>
+<div class="listing-date">
+2026-10-26
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="T2JqZWN0LW9yaWVudGVkJTIwcHJvZ3JhbW1pbmclMjAoT09QKSUyQ1Rlc3QtRHJpdmVuJTIwRGV2ZWxvcG1lbnQlMjAoVEREKSUyQ05hdHVyYWwlMjBMYW5ndWFnZSUyMFByb2Nlc3NpbmclMjAoTkxQKSUyQ0VtYmVkZGluZ3MlMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNQcmVzZW50YXRpb24=" data-listing-date-sort="1791244800000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<a href="../KB/Presentations/presentation_2026-10-06_getting-organized.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/getting-organized.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -285,7 +315,7 @@ Getting Organized: Using software engineering best practices to improve research
 <div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 This talk discusses how common practices in software engineering like object oriented programming (OOP) and test-driven development (TDD) can be used in a research computing…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -299,8 +329,8 @@ Steve Meyer
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Q29tcHV0ZSUyQ09wZW4tU291cmNlJTJDUHJvamVjdCUyQ1IlMkNRdWFydG8lMkNQYWNrYWdlJTJDUHJlc2VudGF0aW9uJTJDQ0hUQyUyQ0NvbnRhaW5lcml6YXRpb24=" data-listing-date-sort="1780358400000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="408">
-<a href="../KB/Presentations/presentation_2026-06-02_toolero.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="Q29tcHV0ZSUyQ09wZW4tU291cmNlJTJDUHJvamVjdCUyQ1IlMkNRdWFydG8lMkNQYWNrYWdlJTJDUHJlc2VudGF0aW9uJTJDQ0hUQyUyQ0NvbnRhaW5lcml6YXRpb24=" data-listing-date-sort="1780358400000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="408">
+<a href="../KB/Presentations/presentation_2026-06-02_toolero.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/toolerologo.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -330,7 +360,7 @@ toolero: An R package for research
 <div class="listing-category" onclick="window.quartoListingCategory('Q29udGFpbmVyaXphdGlvbg=='); return false;">Containerization</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Every research coding project begins with a blank slate and a cluster of low-stakes decisions — where does the data go, what do I call the scripts, do I track dependencies?…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -344,8 +374,8 @@ Erwin Lares
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDUXVhcnRvJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
-<a href="../KB/Presentations/presentation_2026-05-05_uwrse_nexus.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDUXVhcnRvJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="319">
+<a href="../KB/Presentations/presentation_2026-05-05_uwrse_nexus.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/UW-RSE_Logo_Secondary_Tagline_Transparent.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -367,7 +397,7 @@ Introducing the UW RSE Nexus
 <div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 The UW RSE Nexus is the Research Software Engineer (RSE) community’s hub of knowledge and projects. It is a place to share RSE knowledge, events and projects with the…<code></code>
 </div>
 <div class="card-attribution card-text-small justify">
@@ -381,8 +411,8 @@ Ryan Bemowski
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R3VpZGVzJTJDQ29udHJpYnV0ZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2139">
-<a href="../KB/Guides/How-to-contribute.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="R3VpZGVzJTJDQ29udHJpYnV0ZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2139">
+<a href="../KB/Guides/How-to-contribute.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/DALL·E_knowledge-sharing-AI.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -398,7 +428,7 @@ How to Contribute?
 <div class="listing-category" onclick="window.quartoListingCategory('Q29udHJpYnV0ZQ=='); return false;">Contribute</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 We want Nexus to serve also as a place where members of the community can share their knowledge. This guide answers the question, how to contribute to Nexus?
 </div>
 <div class="card-attribution card-text-small justify">
@@ -412,8 +442,8 @@ UW RSE
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDU29mdHdhcmUtRGVzaWduJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1770076800000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4045">
-<a href="../KB/Presentations/presentation_2026-02-03_abstraction.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="5" data-categories="Q29sbGFib3JhdGlvbiUyQ09wZW4tU291cmNlJTJDUHl0aG9uJTJDU29mdHdhcmUtRGVzaWduJTJDUHJlc2VudGF0aW9u" data-listing-date-sort="1770076800000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4045">
+<a href="../KB/Presentations/presentation_2026-02-03_abstraction.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/how-abstraction-empowers-thumbnail7.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -435,7 +465,7 @@ How Abstraction Empowers
 <div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">Presentation</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Hi! 👋 I’m Matt Christie, a data engineer at University of Wisconsin-Madison’s Global Land Use and Environment Lab (GLUE). Recently I had an opportunity to present on the…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -449,11 +479,11 @@ Matt Christie
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="R3VpZGVzJTJDUmVwcm9kdWNpYmlsaXR5JTJDR2l0JTJGR2l0SHViJTJDQ29kZS1hbG9uZw==" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629">
-<a href="../KB/Guides/Github-desktop.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="6" data-categories="R3VpZGVzJTJDUmVwcm9kdWNpYmlsaXR5JTJDR2l0JTJGR2l0SHViJTJDQ29kZS1hbG9uZw==" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3629">
+<a href="../KB/Guides/Github-desktop.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/github-desktop.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" data-src="../images/github-desktop.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -470,7 +500,7 @@ Version Control with GitHub Desktop
 <div class="listing-category" onclick="window.quartoListingCategory('Q29kZS1hbG9uZw=='); return false;">Code-along</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Navigating the world of version control systems like Git can initially feel daunting, especially for those new to programming or collaborative software development projects.…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -484,8 +514,8 @@ Chris Endemann
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="V29ya3Nob3BzJTJDVmlkZW9zJTJDUmVwcm9kdWNpYmlsaXR5JTJDQ2FycGVudHJpZXMlMkNHaXQlMkZHaXRIdWIlMkNDb2RlLWFsb25n" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
-<a href="../KB/Guides/Intro-git-github.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="7" data-categories="V29ya3Nob3BzJTJDVmlkZW9zJTJDUmVwcm9kdWNpYmlsaXR5JTJDQ2FycGVudHJpZXMlMkNHaXQlMkZHaXRIdWIlMkNDb2RlLWFsb25n" data-listing-date-sort="1720656000000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="409">
+<a href="../KB/Guides/Intro-git-github.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" data-src="../images/git-github.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -509,7 +539,7 @@ Version Control with Git and GitHub (Carpentries)
 <div class="listing-category" onclick="window.quartoListingCategory('Q29kZS1hbG9uZw=='); return false;">Code-along</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 The below video (and the 7 subsequent videos in the workshop playlist) will walk you through this introductory Git workshop from the Carpentries: Version Control with…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -523,8 +553,8 @@ Chris Endemann
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Q29tcHV0ZSUyQ0dQVSUyQ0NIVEM=" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1791487306713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
-<a href="../KB/Resources/CHTC.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="8" data-categories="Q29tcHV0ZSUyQ0dQVSUyQ0NIVEM=" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1793717063126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<a href="../KB/Resources/CHTC.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" data-src="../images/CHTC.png" class="thumbnail-image card-img" style="height: 150px;">
@@ -542,7 +572,7 @@ Center for High Throughput Computing (CHTC)
 <div class="listing-category" onclick="window.quartoListingCategory('Q0hUQw=='); return false;">CHTC</div>
 
 </div>
-<div class="card-text listing-description delink">
+<div class="card-text listing-description">
 Established in 2006, the Center for High Throughput Computing (CHTC) is committed to democratizing access to powerful computing resources across all research domains. From…
 </div>
 <div class="card-attribution card-text-small justify">
@@ -640,7 +670,8 @@ Chris Endemann
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -649,8 +680,69 @@ Chris Endemann
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -664,6 +756,7 @@ Chris Endemann
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -826,44 +919,54 @@ Chris Endemann
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -962,7 +1065,10 @@ Chris Endemann
     }
   });
   </script>
-<nav class="page-navigation column-body">
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation column-body" aria-label="Page">
   <div class="nav-page nav-page-previous">
       <a href="../KB/Guides/How-to-contribute.html" class="pagination-link" aria-label="How to contribute?">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How to contribute?</span>
