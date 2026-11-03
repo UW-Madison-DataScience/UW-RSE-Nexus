@@ -41,7 +41,7 @@ my project in bite-sized pieces that map clearly onto what I'd like others (and 
 know about it. In an attempt to highlight this aspect of its use, I presented the tutorial
 as [The Story of Your Project](https://youtu.be/7x6C8_FXEK0?si=Kb8MASIoMIJCwup0) (posted on YouTube).
 Looking back, the tutorial ended up being more focused on the specific operations Git makes
-possible, though it's my hope that at least some of this appreciation still shines though.
+possible, though it's my hope that at least some of this appreciation still shines through.
 
 I've also used AI to generate [companion tutorial materials](https://github.com/glue-lab/uw-rse-git-tutorial)
 from the video content that are hosted on my lab's GitHub. The repository contains
