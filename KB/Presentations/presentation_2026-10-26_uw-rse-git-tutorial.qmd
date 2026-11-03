@@ -1,0 +1,53 @@
+---
+title: "The Story Of Your Project: UW RSE Git Tutorial" # enter the title of the resource (typically the name of the presentation/article/workshop/video/book/etc. )
+author: 
+  - name: Matt Christie # replace with your name
+
+date: 2026-10-26 # enter today's date as YYYY-MM-DD
+date-format: long # leave as is
+image: "/images/uw-rse-git-tutorial.png" # In your local copy of the Nexus repository, add a representative image for this resource to the images folder. Both PNGs and JPGs are acceptable formats. Adjust the filename here from "vincent-van-zalinge-mDohQISBnCk-unsplash.jpg" to the name of your image.
+
+# Enter a list of relevant categories/tags for this resource, including the type (workshop, book, video, podcast, etc.) topic of focus, and anything else that might be relevant. Please check out the tags which are already being used on Nexus by visiting https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/ and looking under "Categories". Avoid repeating tags with alternative spelling (e.g., use Deep Learning rather than DL since Deep Learning is already being used.). 
+# Example categories below:
+categories: 
+  - Collaboration # Deep learning, Regression, Large language models, NLP, Clustering, Decision trees, etc.
+  - Open-Source # If there is a codebase, is it open-source?
+  - Git
+  - Presentation # Presentation, Workshops, Books, Podcasts, Videos, Blogs, Models, Datasets, EDA, etc.
+    # Include this tag for any resource that involves coding along as a learning mechanism (e.g., workshop, short demo/guide with code examples)
+    # Anything else you think people may want to group this by
+---
+<!-- MARKDOWN COMMENT: For a good example of an external resource post, check out: 
+https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Workshops/Intro-Deeplearning_Keras.html
+
+... and the .qmd file which stores the page's content
+https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Learn/Workshops/Intro-Deeplearning_Keras.qmd
+
+-->
+## {{< meta title >}}
+<!-- MARKDOWN COMMENT: Replace the instructions below with your a brief overview or abstract of your presentation -->
+
+Hello there! 👋 I'm Matt Christie, a data engineer at University of Wisconsin-Madison's
+[Global Land Use and Environment Lab](https://www.gibbs-lab.wisc.edu/) (GLUE). It was a
+privilege and a pleasure to present on Git today, an invaluable and omnipresent tool for
+version control. I wanted to give as close to a comprehensive overview as I could in 90
+minutes, starting from simple objects like files and folders and building up to how we use
+Git to manage our real-world projects.
+
+While many sources cite code backups and collaboration as primary reasons to use the tool,
+one of the main things I find myself using it for is communication. With judicious use of
+commits, branches, and pull requests, I like that Git allows me to advertise and explain
+my project in bite-sized pieces that map clearly onto what I'd like others (and myself) to
+know about it. In an attempt to highlight this aspect of its use, I presented the tutorial
+as [The Story of Your Project](https://youtu.be/7x6C8_FXEK0?si=Kb8MASIoMIJCwup0) (posted on YouTube).
+Looking back, the tutorial ended up being more focused on the specific operations Git makes
+possible, though it's my hope that at least some of this appreciation still shines through.
+
+I've also used AI to generate [companion tutorial materials](https://github.com/glue-lab/uw-rse-git-tutorial)
+from the video content that are hosted on my lab's GitHub. The repository contains
+markdown files that largely follow the content of the video and provide concise explanations
+of the commands it covers. I've reviewed the materials manually and have made small updates
+for clarity and correctness.
+
+Enjoy! 📖
+
