@@ -51,3 +51,10 @@ for clarity and correctness.
 
 Enjoy! 📖
 
+### Recording of Presentation
+
+- [{{< meta title >}} Recording](https://youtu.be/7x6C8_FXEK0?si=Kb8MASIoMIJCwup0)
+
+## See also
+
+[GitHub Repo](https://github.com/glue-lab/uw-rse-git-tutorial): companion tutorial materials
